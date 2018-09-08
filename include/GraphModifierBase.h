@@ -40,15 +40,15 @@ public Q_SLOTS:
 	virtual void changeShadowQuality(int quality);
 	virtual void shadowQualityUpdatedByVisual(QAbstractGraph3D::ShadowQuality shadowQuality);
 	virtual void changeLabelRotation(int rotation);
-	virtual void setAxisTitleVisibility(bool enabled);
-	virtual void setAxisTitleFixed(bool enabled);
+	virtual void setAxisTitleVisibility(int enabled);
+	virtual void setAxisTitleFixed(int enabled);
 	virtual void zoomToSelectedBar() = 0;
 	virtual void setBackgroundEnabled(int enabled);
 	virtual void setGridEnabled(int enabled);
 	virtual void setSmoothBars(int smooth) = 0;
 	virtual void setSeriesVisibility(int enabled) = 0;
 	virtual void setReverseValueAxis(int enabled) = 0;
-	virtual void setReflection(bool enabled);
+	virtual void setReflection(int enabled);
 	virtual void changeFont(const QFont &font);
 	virtual void changeFontSize(int fontsize);
 

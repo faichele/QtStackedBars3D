@@ -1500,7 +1500,7 @@ namespace QtStackedBar3DVis
 			m_drawer->drawLabel(*selectedBar, labelItem, viewMatrix, projectionMatrix,
 				zeroVector, identityQuaternion, totalHeight / 2.0f,
 				m_cachedSelectionMode, m_labelShader,
-				m_labelObj, activeCamera, true, false, QDrawer3D::LabelBelow, Qt::AlignCenter, false, false, false);
+				m_labelObj, activeCamera, true, false, QDrawer3D::LabelBelow, Qt::AlignCenter, false, false, true);
 
 			// Reset label update flag; they should have been updated when we get here
 			m_updateLabels = false;

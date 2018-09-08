@@ -401,6 +401,7 @@ namespace QtStackedBar3DVis
 
 		// Custom format expects printf format specifier. There is no tag for it.
 		qreal selectedBarValue = 0.0;
+		QStringList barValues;
 		if (qptr()->dataProxy()->itemAt(m_selectedBar)->values().size() > 0)
 		{
 			selectedBarValue = qreal(qptr()->dataProxy()->itemAt(m_selectedBar)->values().at(0));
@@ -408,11 +409,11 @@ namespace QtStackedBar3DVis
 			for (unsigned int k = 0; k < qptr()->dataProxy()->itemAt(m_selectedBar)->values().size(); k++)
 			{
 				selectedBarValue = qreal(qptr()->dataProxy()->itemAt(m_selectedBar)->values().at(k));
-				
+				barValues << QString::number(selectedBarValue);
 			}
 		}
 
-		m_itemLabel = itemLabels.join(QString("\r\n"));
+		m_itemLabel.append(barValues.join(QString(" -- ")));
 
 		int selBarPosRow = m_selectedBar.x();
 		int selBarPosCol = m_selectedBar.y();

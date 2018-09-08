@@ -145,18 +145,18 @@ void GraphModifierBase::changeLabelRotation(int rotation)
 	m_cyclesAxis_1->setLabelAutoRotation(float(rotation));
 }
 
-void GraphModifierBase::setAxisTitleVisibility(bool enabled)
+void GraphModifierBase::setAxisTitleVisibility(int enabled)
 {
-	m_deviationAxis->setTitleVisible(enabled);
-	m_cyclesAxis_2->setTitleVisible(enabled);
-	m_cyclesAxis_1->setTitleVisible(enabled);
+	m_deviationAxis->setTitleVisible((bool) enabled);
+	m_cyclesAxis_2->setTitleVisible((bool) enabled);
+	m_cyclesAxis_1->setTitleVisible((bool) enabled);
 }
 
-void GraphModifierBase::setAxisTitleFixed(bool enabled)
+void GraphModifierBase::setAxisTitleFixed(int enabled)
 {
-	m_deviationAxis->setTitleFixed(enabled);
-	m_cyclesAxis_2->setTitleFixed(enabled);
-	m_cyclesAxis_1->setTitleFixed(enabled);
+	m_deviationAxis->setTitleFixed((bool) enabled);
+	m_cyclesAxis_2->setTitleFixed((bool) enabled);
+	m_cyclesAxis_1->setTitleFixed((bool) enabled);
 }
 
 void GraphModifierBase::changeShadowQuality(int quality)
@@ -188,9 +188,9 @@ void GraphModifierBase::setGridEnabled(int enabled)
 	m_graph->activeTheme()->setGridEnabled(bool(enabled));
 }
 
-void GraphModifierBase::setReflection(bool enabled)
+void GraphModifierBase::setReflection(int enabled)
 {
-	m_graph->setReflection(enabled);
+	m_graph->setReflection((bool) enabled);
 }
 
 void CurrentControlTarget::switchTarget()
@@ -221,10 +221,10 @@ void CurrentControlTarget::switchTarget()
 		QObject::disconnect(m_smoothCheckBox, SIGNAL(stateChanged(int)), m_oldModifier,
 			SLOT(setSmoothBars(int)));
 
-		QObject::disconnect(m_oldModifier, SIGNAL(backgroundEnabledChanged(int)),
-			m_backgroundCheckBox, SLOT(setChecked(int)));
-		QObject::disconnect(m_oldModifier, SIGNAL(gridEnabledChanged(int)),
-			m_gridCheckBox, SLOT(setChecked(int)));
+		QObject::disconnect(m_oldModifier, SIGNAL(backgroundEnabledChanged(bool)),
+			m_backgroundCheckBox, SLOT(setChecked(bool)));
+		QObject::disconnect(m_oldModifier, SIGNAL(gridEnabledChanged(bool)),
+			m_gridCheckBox, SLOT(setChecked(bool)));
 	
 		QObject::disconnect(m_rangeList, SIGNAL(currentIndexChanged(int)), m_oldModifier,
 			SLOT(changeRange(int)));
@@ -284,10 +284,10 @@ void CurrentControlTarget::switchTarget()
 		QObject::connect(m_smoothCheckBox, SIGNAL(stateChanged(int)), m_activeModifier,
 			SLOT(setSmoothBars(int)));
 
-		QObject::connect(m_activeModifier, SIGNAL(backgroundEnabledChanged(int)),
-			m_backgroundCheckBox, SLOT(setChecked(int)));
-		QObject::connect(m_activeModifier, SIGNAL(gridEnabledChanged(int)),
-			m_gridCheckBox, SLOT(setChecked(int)));
+		QObject::connect(m_activeModifier, SIGNAL(backgroundEnabledChanged(bool)),
+			m_backgroundCheckBox, SLOT(setChecked(bool)));
+		QObject::connect(m_activeModifier, SIGNAL(gridEnabledChanged(bool)),
+			m_gridCheckBox, SLOT(setChecked(bool)));
 	
 		QObject::connect(m_rangeList, SIGNAL(currentIndexChanged(int)), m_activeModifier,
 			SLOT(changeRange(int)));
