@@ -1,4 +1,4 @@
-# Copyright (c) 2017, Riverbank Computing Limited
+# Copyright (c) 2018, Riverbank Computing Limited
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -23,7 +23,7 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-# This is v2.3 of this boilerplate.
+# This is v2.5 of this boilerplate.
 
 
 from distutils import sysconfig
@@ -36,11 +36,6 @@ import sys
 ###############################################################################
 # You shouldn't need to modify anything above this line.
 ###############################################################################
-
-
-# This must be kept in sync with Python/configure-old.py, qwt.pro,
-# example-Qt4Qt5/application.pro and designer-Qt4Qt5/designer.pro.
-QWT_API_MAJOR = 6
 
 
 class ModuleConfiguration(object):
@@ -56,14 +51,14 @@ class ModuleConfiguration(object):
 
     # The descriptive name of the module.  This is used in help text and error
     # messages.
-    descriptive_name = "QtStackedBars3D"
+    descriptive_name = "PyQtStackedBars3D"
 
     # The version of the module as a string.  Set it to None if you don't
     # provide version information.
-    version = 'None'
+    version = '5.11.2'
 
     # The name of the PEP 376 .dist-info directory to be created.
-    distinfo_name = 'QtStackedBars3D'
+    distinfo_name = 'PyQtStackedBars3D'
 
     # Set if a configuration script is provided that handles versions of PyQt4
     # prior to v4.10 (i.e. versions where the pyqtconfig.py module is
@@ -74,7 +69,7 @@ class ModuleConfiguration(object):
     # The minimum version of SIP that is required.  This should be a
     # dot-separated string of two or three integers (e.g. '1.0', '4.10.3').  If
     # it is None or an empty string then the version is not checked.
-    minimum_sip_version = '4.19'
+    minimum_sip_version = '4.19.1'
 
     # Set if support for C++ exceptions can be disabled.
     no_exceptions = True
@@ -97,14 +92,14 @@ class ModuleConfiguration(object):
     # 'pyqt4_is_supported' and 'pyqt5_is_supported' are set.
     pyqt5_is_default = True
 
-    # The name (without the .api extension) of the name of the Qwt API
+    # The name (without the .api extension) of the name of the QScintilla API
     # file to be generated.  If it is None or an empty string then an API file
     # is not generated.
-    qwt_api_file = 'QtStackedBars3D'
+    qscintilla_api_file = 'PyQtStackedBars3D'
 
     # The email address that will be included when an error in the script is
     # detected.  Leave it blank if you don't want to include an address.
-    support_email_address = 'gudjon@gudjon.org'
+    support_email_address = 'support@riverbankcomputing.com'
 
     # Set if the user can provide a configuration file.  It is normally only
     # used if cross-compilation is supported.
@@ -125,12 +120,8 @@ class ModuleConfiguration(object):
         configuration.
         """
 
-        target_configuration.qwt_version = None
-        target_configuration.qwt_features_dir = None
-        target_configuration.qwt_inc_dir = None
-        target_configuration.qwt_lib_dir = None
-        target_configuration.qwt_lib = None
-        target_configuration.qwt_sip_dir = None
+        target_configuration.qtdv_version = None
+        target_configuration.qtdv_sip_dir = None
 
     @staticmethod
     def init_optparser(optparser, target_configuration):
@@ -140,38 +131,19 @@ class ModuleConfiguration(object):
         target_configuration is the target configuration.
         """
 
-        optparser.add_option('--qwt-incdir', '-n', dest='qwt_inc_dir',
-                type='string', default=None, action='callback',
-                callback=optparser_store_abspath_dir, metavar="DIR",
-                help="the directory containing the Qwt header "
-                        "file directory is DIR [default: QT_INSTALL_HEADERS]")
+        optparser.add_option('--QtStackedBars3D-version',
+                dest='qtdv_version', type='string', metavar="VERSION",
+                help="the QtStackedBars3D version number (eg. 1.1.0)")
 
-        optparser.add_option('--qwt-featuresdir', dest='qwt_features_dir',
-                type='string', default=None, action='callback',
-                callback=optparser_store_abspath_dir, metavar="DIR",
-                help="the directory containing the qwt.prf features "
-                        "file is DIR [default: "
-                        "QT_INSTALL_PREFIX/mkspecs/features]")
-
-        optparser.add_option('--qwt-libdir', '-o', dest='qwt_lib_dir',
-                type='string', default=None, action='callback',
-                callback=optparser_store_abspath_dir, metavar="DIR",
-                help="the directory containing the Qwt library is DIR "
-                        "[default: QT_INSTALL_LIBS]")
-
-        optparser.add_option('--qwt-lib', '-l', dest='qwt_lib',
-                type='string', default=None,
-                help="the Qwt library "
-                        "[default: qwt]")
-
-        optparser.add_option('--qwt-sipdir', '-v', dest='qwt_sip_dir',
-                type='string', default=None, action='callback',
-                callback=optparser_store_abspath_dir, metavar="DIR",
-                help="the Qwt .sip files will be installed in DIR "
-                        "[default: %s]" % target_configuration.pyqt_sip_dir)
+        optparser.add_option('--QtStackedBars3D-sipdir', '-v',
+                dest='qtdv_sip_dir', type='string', default=None,
+                action='callback', callback=optparser_store_abspath_dir,
+                metavar="DIR",
+                help="the QtStackedBars3D .sip files will be installed in "
+                        "DIR [default: %s]" % target_configuration.pyqt_sip_dir)
 
         optparser.add_option("--no-sip-files", action="store_true",
-                default=False, dest="qwt_no_sip_files",
+                default=False, dest="qtdv_no_sip_files",
                 help="disable the installation of the .sip files "
                         "[default: enabled]")
 
@@ -182,25 +154,28 @@ class ModuleConfiguration(object):
         options are the parsed options.
         """
 
-        if options.qwt_features_dir is not None:
-            target_configuration.qwt_features_dir = options.qwt_features_dir
+        # Historically Digia have been incapable of remembering to update the
+        # version number in a new release of add-on libraries so we allow the
+        # user to specify it while defaulting to the Qt version.
+        qtdv_version_str = options.qtdv_version
+        if qtdv_version_str is None:
+            qtdv_version_str = target_configuration.qt_version_str
 
-        if options.qwt_inc_dir is not None:
-            target_configuration.qwt_inc_dir = options.qwt_inc_dir
+        target_configuration.qtdv_version = version_from_string(
+                qtdv_version_str)
 
-        if options.qwt_lib_dir is not None:
-            target_configuration.qwt_lib_dir = options.qwt_lib_dir
+        if target_configuration.qtdv_version is None:
+            error(
+                    "%s is not a valid QtStackedBars3D version." %
+                    qtdv_version_str)
 
-        if options.qwt_lib is not None:
-            target_configuration.qwt_lib = options.qwt_lib
-
-        if options.qwt_sip_dir is not None:
-            target_configuration.qwt_sip_dir = options.qwt_sip_dir
+        if options.qtdv_sip_dir is not None:
+            target_configuration.qtdv_sip_dir = options.qtdv_sip_dir
         else:
-            target_configuration.qwt_sip_dir = target_configuration.pyqt_sip_dir
+            target_configuration.qtdv_sip_dir = target_configuration.pyqt_sip_dir
 
-        if options.qwt_no_sip_files:
-            target_configuration.qwt_sip_dir = ''
+        if options.qtdv_no_sip_files:
+            target_configuration.qtdv_sip_dir = ''
 
     @staticmethod
     def check_module(target_configuration):
@@ -209,51 +184,7 @@ class ModuleConfiguration(object):
         configuration.
         """
 
-        # Find the Qwt header files.
-        inc_dir = target_configuration.qwt_inc_dir
-        if inc_dir is None:
-            inc_dir = target_configuration.qt_inc_dir
-
-        qwt_version = "0.0.1"
-
-        #qwtglobal = os.path.join(inc_dir, '', 'qwt_global.h')
-        #print(inc_dir)
-        #if not os.access(qwtglobal, os.F_OK):
-            #error(
-                    #"qwt/qwt_global.h could not be found in %s. If "
-                    #"Qwt is installed then use the --qwt-incdir "
-                    #"argument to explicitly specify the correct "
-                    #"directory." % inc_dir)
-
-        ## Get the Qwt version string.
-        #qwt_version = read_define(qwtglobal, 'QWT_VERSION_STR')
-        #if qwt_version is None:
-            #error(
-                    #"The Qwt version number could not be determined by "
-                    #"reading %s." % qwtglobal)
-
-        lib_dir = target_configuration.qwt_lib_dir
-        if lib_dir is None:
-            lib_dir = target_configuration.qt_lib_dir
-
-        inform("Using lib_dir: " + str(lib_dir))
-        if not glob.glob(os.path.join(lib_dir, '*QtStackedBars3D*')):
-            error(
-                    "The Qwt library could not be found in %s. If "
-                    "Qwt is installed then use the --qwt-libdir "
-                    "argument to explicitly specify the correct "
-                    "directory." % lib_dir)
-
-        ## Because we include the Python bindings with the C++ code we can
-        ## reasonably force the same version to be used and not bother about
-        ## versioning in the .sip files.
-        #if qwt_version != ModuleConfiguration.version:
-            #error(
-                    #"QtStackedBars3D %s is being used but the Python bindings %s "
-                    #"are being built. Please use matching "
-                    #"versions." % (qwt_version, ModuleConfiguration.version))
-
-        target_configuration.qwt_version = qwt_version
+        # Nothing to do.
 
     @staticmethod
     def inform_user(target_configuration):
@@ -261,12 +192,17 @@ class ModuleConfiguration(object):
         target_configuration is the target configuration.
         """
 
-        inform("QtStackedBars3D %s is being used." %
-                target_configuration.qwt_version)
+        major = (target_configuration.qtdv_version >> 16) & 0xff
+        minor = (target_configuration.qtdv_version >> 8) & 0xff
+        patch = target_configuration.qtdv_version & 0xff
+        version = '%d.%d.%d' % (major, minor, patch)
 
-        if target_configuration.qwt_sip_dir != '':
-            inform("The Qwt .sip files will be installed in %s." %
-                    target_configuration.qwt_sip_dir)
+        inform("QtStackedBars3D %s is being used." % version)
+
+        if target_configuration.qtdv_sip_dir != '':
+            inform(
+                    "The QtStackedBars3D .sip files will be installed in "
+                    "%s." % target_configuration.qtdv_sip_dir)
 
     @staticmethod
     def pre_code_generation(target_config):
@@ -282,22 +218,20 @@ class ModuleConfiguration(object):
         target_configuration is the target configuration.
         """
 
-        # Nothing to do.
-        return []
+        major = (target_configuration.qtdv_version >> 16) & 0xff
+        minor = (target_configuration.qtdv_version >> 8) & 0xff
+        patch = target_configuration.qtdv_version & 0xff
+        version_tag = 'QtStackedBars3D_%d_%d_%d' % (major, minor, patch)
+
+        return ['-t', version_tag]
 
     @staticmethod
     def get_sip_file(target_configuration):
         """ Return the name of the module's .sip file.  target_configuration is
         the target configuration.
         """
+
         return 'sip/QtStackedBars3D/QtStackedBars3Dmod.sip'
-
-        #if target_configuration.pyqt_package == 'PyQt5':
-        #    return os.path.join(src_dir, 'sip/qwt.sip')
-        #else:
-        #    return os.path.join(src_dir, 'sip/qwtmod4.sip')
-
-        #return 'sip/qwtmod5.sip' if target_configuration.pyqt_package == 'PyQt5' else 'sip/qwtmod4.sip'
 
     @staticmethod
     def get_sip_installs(target_configuration):
@@ -308,13 +242,13 @@ class ModuleConfiguration(object):
         target_configuration is the target configuration.
         """
 
-        if target_configuration.qwt_sip_dir == '':
+        if target_configuration.qtdv_sip_dir == '':
             return None
 
-        path = os.path.join(target_configuration.qwt_sip_dir, 'QtStackedBars3D')
+        path = os.path.join(target_configuration.qtdv_sip_dir,
+                'QtStackedBars3D')
         files = glob.glob('sip/QtStackedBars3D/*.sip')
-        print("qwt_sip_dir = " + str(target_configuration.qwt_sip_dir) + ", path = " + str(path))
-        print("files = " + str(repr(files)))
+
         return path, files
 
     @staticmethod
@@ -325,18 +259,7 @@ class ModuleConfiguration(object):
         version of Qt.  target_configuration is the target configuration.
         """
 
-        qmake = {'CONFIG': 'QtStackedBars3D'}
-
-        if target_configuration.qwt_inc_dir is not None:
-            qmake['INCLUDEPATH'] = quote(target_configuration.qwt_inc_dir)
-
-        if target_configuration.qwt_lib_dir is not None:
-            qmake['LIBS'] = '-L%s' % quote(target_configuration.qwt_lib_dir)
-
-        if target_configuration.qwt_features_dir is not None:
-            os.environ['QMAKEFEATURES'] = target_configuration.qwt_features_dir
-
-        return qmake
+        return {'QT': 'datavisualization'}
 
     @staticmethod
     def get_mac_wrapped_library_file(target_configuration):
@@ -347,15 +270,7 @@ class ModuleConfiguration(object):
         target_configuration is the target configuration.
         """
 
-        lib_dir = target_configuration.qwt_lib_dir
-        if lib_dir is None:
-            lib_dir = target_configuration.qt_lib_dir
-
-        debug = '_debug' if target_configuration.debug else ''
-
-        return os.path.join(lib_dir,
-                'libqwt%s.%s.dylib' % (debug,
-                        QWT_API_MAJOR))
+        return None
 
 
 ###############################################################################
@@ -662,7 +577,6 @@ class _HostPythonConfiguration:
         self.version = sys.hexversion >> 8
 
         self.inc_dir = sysconfig.get_python_inc()
-        inform("Python include directory: " + str(self.inc_dir))
         self.venv_inc_dir = sysconfig.get_python_inc(prefix=sys.prefix)
         self.module_dir = sysconfig.get_python_lib(plat_specific=1)
         self.debug = hasattr(sys, 'gettotalrefcount')
@@ -775,6 +689,18 @@ class _TargetConfiguration:
         self.pyqt_package = pyqt
 
         pkg_config.init_target_configuration(self)
+
+    def __str__(self):
+        self.py_debug = py_config.debug
+        self.py_platform = py_config.platform
+        self.py_version = py_config.version
+        self.py_module_dir = py_config.module_dir
+        self.py_inc_dir = py_config.inc_dir
+        self.py_venv_inc_dir = py_config.venv_inc_dir
+        self.py_pylib_dir = py_config.lib_dir
+        self.py_sip_dir = os.path.join(py_config.data_dir, 'sip')
+        self.sip_inc_dir = py_config.venv_inc_dir
+
 
     def update_from_configuration_file(self, config_file):
         """ Update the configuration with values from a file.  config_file
@@ -996,7 +922,7 @@ class _TargetConfiguration:
                 # Qt v4.
                 self.qmake_spec = 'macx-g++'
 
-        self.api_dir = os.path.join(qt_config.QT_INSTALL_DATA, 'qwt')
+        self.api_dir = os.path.join(qt_config.QT_INSTALL_DATA, 'qsci')
         self.qt_inc_dir = qt_config.QT_INSTALL_HEADERS
         self.qt_lib_dir = qt_config.QT_INSTALL_LIBS
 
@@ -1082,11 +1008,11 @@ class _TargetConfiguration:
             elif self.stubs_dir == '':
                 self.stubs_dir = self.module_dir
 
-        if pkg_config.qwt_api_file:
+        if pkg_config.qscintilla_api_file:
             if opts.apidir is not None:
                 self.api_dir = opts.apidir
 
-            if opts.no_qwt_api:
+            if opts.no_qsci_api:
                 self.api_dir = ''
 
         if opts.destdir is not None:
@@ -1163,15 +1089,15 @@ def _create_optparser(target_config, pkg_config):
                 help="disable the installation of the PEP 484 stubs "
                         "[default: enabled]")
 
-    if pkg_config.qwt_api_file:
+    if pkg_config.qscintilla_api_file:
         p.add_option('--apidir', '-a', dest='apidir', type='string',
                 default=None, action='callback',
                 callback=optparser_store_abspath, metavar="DIR", 
-                help="the Qwt API file will be installed in DIR "
-                        "[default: QT_INSTALL_DATA/qwt]")
-        p.add_option('--no-qwt-api', dest='no_qwt_api', default=True,
+                help="the QScintilla API file will be installed in DIR "
+                        "[default: QT_INSTALL_DATA/qsci]")
+        p.add_option('--no-qsci-api', dest='no_qsci_api', default=False,
                 action='store_true',
-                help="disable the installation of the Qwt API file "
+                help="disable the installation of the QScintilla API file "
                         "[default: enabled]")
 
     if pkg_config.user_configuration_file_is_supported:
@@ -1317,8 +1243,8 @@ def _inform_user(target_config, pkg_config):
         inform("The PEP 484 stubs will be installed in %s." %
                 target_config.stubs_dir)
 
-    if pkg_config.qwt_api_file and target_config.api_dir != '':
-        inform("The Qwt API file will be installed in %s." %
+    if pkg_config.qscintilla_api_file and target_config.api_dir != '':
+        inform("The QScintilla API file will be installed in %s." %
                 os.path.join(target_config.api_dir, 'api', 'python'))
 
 
@@ -1349,7 +1275,6 @@ def _generate_code(target_config, opts, pkg_config, module_config, all_installs)
 
     # Add the module-specific flags.
     argv.extend(pkg_config.get_sip_flags(target_config))
-    # argv.append('-n sip')
 
     if target_config.pyqt_package is not None:
         # Get the flags used for the main PyQt module.
@@ -1369,7 +1294,7 @@ def _generate_code(target_config, opts, pkg_config, module_config, all_installs)
         argv.append('-y')
         argv.append(quote(module_config.pep484_stub_file + '.pyi'))
 
-    if pkg_config.qwt_api_file and target_config.api_dir != '':
+    if pkg_config.qscintilla_api_file and target_config.api_dir != '':
         # Generate the API file.
         argv.append('-a')
         argv.append(quote(module_config.name + '.api'))
@@ -1408,9 +1333,10 @@ def _generate_code(target_config, opts, pkg_config, module_config, all_installs)
             'sipAPI%s.h' % module_config.name)
     _remove_file(check_file)
 
-    _run_command(' '.join(argv), True) # opts.verbose)
+    _run_command(' '.join(argv), opts.verbose)
 
     if not os.access(check_file, os.F_OK):
+        print("os.access(" + str(check_file) + ")")
         error("Unable to create the C++ code.")
 
     # Generate the .pro file.
@@ -1434,11 +1360,9 @@ def _get_qt_qmake_config(qmake_config, qt_version):
 def _write_qt_qmake_config(qt_qmake_config, pro):
     """ Write the qmake configuration values to a .pro file. """
 
-    inform("Writing .pro file to: " + str(pro))
     for name in ('QT', 'CONFIG', 'DEFINES', 'INCLUDEPATH', 'LIBS'):
         value = qt_qmake_config.get(name)
         if value:
-            inform("Writing line: " + name + " += " + value) 
             pro.write('    %s += %s\n' % (name, value))
 
 
@@ -1464,9 +1388,6 @@ def _generate_pro(target_config, opts, module_config, all_installs):
     qt = qmake_config.get('QT')
     if qt:
         pro.write('QT += %s\n' % qt)
-
-    if target_config.pyqt_package == 'PyQt5':
-        pro.write("QT += core gui widgets printsupport\n")
 
     pro.write('CONFIG += %s\n' % ('debug' if target_config.debug else 'release'))
     pro.write('CONFIG += %s\n' % ('staticlib' if opts.static else 'plugin plugin_bundle'))
@@ -1578,17 +1499,22 @@ INSTALLS += sip
         pro.write('DEFINES += SIP_PROTECTED_IS_PUBLIC protected=public\n')
 
     defines = qmake_config.get('DEFINES')
+
+    if not defines:
+        defines="QT_BUILD_STACKEDBAR3D_LIB"
+
+    print("defines = " + str(defines))
+
     if defines:
         pro.write('DEFINES += %s\n' % defines)
-    pro.write('DEFINES += QWT_PYTHON_WRAPPER\n')
 
     includepath = qmake_config.get('INCLUDEPATH')
-    
-    if not includepath:
-        includepath = os.path.join(os.getcwd(), '..', 'cpp_lib', 'include')
 
-    inform("INCLUDEPATH = " + str(includepath))
-    
+    if not includepath:
+        includepath = os.path.join(os.getcwd(), 'include')
+
+    print("INCLUDEPATH = " + str(includepath))
+
     if includepath:
         pro.write('INCLUDEPATH += %s\n' % includepath)
 
@@ -1599,14 +1525,8 @@ INSTALLS += sip
         pro.write('INCLUDEPATH += %s\n' % quote(target_config.py_inc_dir))
 
     libs = qmake_config.get('LIBS')
-    inform("LIBS = " + str(libs))
     if libs:
-        if target_config.qwt_lib == None:
-            inform("Adding QtStackedBars3D library as linker dependency")
-            pro.write('LIBS += %s -lQtStackedBars3D\n' % libs)
-        else:
-            inform("Adding libs = " + str(repr(libs)) + ", -l" + str(target_config.qwt_lib))
-            pro.write('LIBS += %s -l%s\n' % (libs,target_config.qwt_lib))            
+        pro.write('LIBS += %s\n' % libs)
 
     if not opts.static:
         dylib = module_config.get_mac_wrapped_library_file(target_config)
@@ -1829,12 +1749,13 @@ def _main(argv, pkg_config):
     all_installs = []
 
     for module_config in pkg_config.modules:
-        _generate_code(target_config, opts, pkg_config, module_config, all_installs)
+        _generate_code(target_config, opts, pkg_config, module_config,
+                all_installs)
 
     # Concatenate any .api files.
-    if pkg_config.qwt_api_file and target_config.api_dir != '':
-        inform("Generating the Qwt API file...")
-        f = open(pkg_config.qwt_api_file + '.api', 'w')
+    if pkg_config.qscintilla_api_file and target_config.api_dir != '':
+        inform("Generating the QScintilla API file...")
+        f = open(pkg_config.qscintilla_api_file + '.api', 'w')
 
         for module_config in pkg_config.modules:
             api = open(module_config.name + '.api')
@@ -1874,9 +1795,9 @@ INSTALLS += pep484_stubs
             all_installs.extend(
                     [target_config.stubs_dir + '/' + pyi for pyi in stubs])
 
-    if pkg_config.qwt_api_file and target_config.api_dir != '':
+    if pkg_config.qscintilla_api_file and target_config.api_dir != '':
         api_dir = target_config.api_dir + '/api/python'
-        api_file = pkg_config.qwt_api_file + '.api'
+        api_file = pkg_config.qscintilla_api_file + '.api'
 
         pro.write('''
 api.path = %s
@@ -1905,11 +1826,11 @@ INSTALLS += distinfo
 
         installed.close()
 
-
     pro.close()
 
     # Generate the Makefile.
-    _run_qmake(target_config, True, pro_name) # opts.verbose, pro_name)
+    print("Running qmake: target_config = " + str(repr(target_config)) + ", pro_name = " + str(pro_name))
+    _run_qmake(target_config, opts.verbose, pro_name)
 
 
 ###############################################################################
@@ -1941,16 +1862,11 @@ if __name__ == '__main__':
         pkg_config_type.pyqt4_is_supported = mod_config_type.pyqt4_is_supported
         pkg_config_type.pyqt5_is_supported = mod_config_type.pyqt5_is_supported
         pkg_config_type.pyqt5_is_default = mod_config_type.pyqt5_is_default
-        pkg_config_type.qwt_api_file = mod_config_type.qwt_api_file
+        pkg_config_type.qscintilla_api_file = mod_config_type.qscintilla_api_file
         pkg_config_type.support_email_address = mod_config_type.support_email_address
         pkg_config_type.user_configuration_file_is_supported = mod_config_type.user_configuration_file_is_supported
         pkg_config_type.user_pyqt_sip_flags_is_supported = mod_config_type.user_pyqt_sip_flags_is_supported
         pkg_config_type.version = mod_config_type.version
-
-        inform("pkg_config_type.version = " + str(pkg_config_type.version))
-        if str(pkg_config_type.version) == "None":
-            inform("Setting version manually to 0.0.1")
-            pkg_config_type.version = "0.0.1"
 
         pkg_config_type.init_target_configuration = staticmethod(
                 mod_config_type.init_target_configuration)

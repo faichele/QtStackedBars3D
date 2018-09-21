@@ -1,0 +1,3 @@
+/usr/lib/python3.6/site-packages/PyQt5/QtStackedBars3D.so
+/usr/share/sip/PyQt5/QtStackedBars3D
+/usr/lib/python3.6/site-packages/PyQt5/QtStackedBars3D.pyi

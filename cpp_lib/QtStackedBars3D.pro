@@ -1,6 +1,8 @@
-QT       += widgets
+QT     += widgets
 TARGET = QtStackedBars3D
 TEMPLATE = lib
+
+DESTDIR = $${PWD}/../bin
 
 CONFIG += c++11
 
@@ -15,6 +17,8 @@ unix {
     target.path = /usr/lib
     INSTALLS += target
 }
+
+RESOURCES     = qstackedbars.qrc
 
 HEADERS += \
                            include/QAbstractAxis3D.h \

@@ -1,0 +1,750 @@
+PyQt5.QtStackedBars3D.PYQT_DATAVISUALIZATION_VERSION?7
+PyQt5.QtStackedBars3D.PYQT_DATAVISUALIZATION_VERSION_STR?7
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.qDefaultSurfaceFormat?4(bool antialias=True) -> QSurfaceFormat
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.OptimizationHint?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.OptimizationDefault?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.OptimizationStatic?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.ElementType?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.ElementNone?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.ElementSeries?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.ElementAxisXLabel?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.ElementAxisYLabel?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.ElementAxisZLabel?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.ElementCustomItem?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.ShadowQuality?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.ShadowQualityNone?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.ShadowQualityLow?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.ShadowQualityMedium?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.ShadowQualityHigh?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.ShadowQualitySoftLow?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.ShadowQualitySoftMedium?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.ShadowQualitySoftHigh?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionFlag?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionNone?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionItem?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionRow?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionItemAndRow?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionColumn?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionItemAndColumn?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionRowAndColumn?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionItemRowAndColumn?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionSlice?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionMultiSeries?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.addInputHandler?4(QtStackedBar3DVis.QAbstractInputHandler3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.releaseInputHandler?4(QtStackedBar3DVis.QAbstractInputHandler3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.setActiveInputHandler?4(QtStackedBar3DVis.QAbstractInputHandler3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.inputHandlers?4() -> unknown-type
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.addTheme?4(QtStackedBar3DVis.QTheme3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.releaseTheme?4(QtStackedBar3DVis.QTheme3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.setActiveTheme?4(QtStackedBar3DVis.QTheme3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.activeTheme?4() -> QtStackedBar3DVis.QTheme3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.themes?4() -> unknown-type
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.setSelectionMode?4(QtStackedBar3DVis.QAbstractGraph3D.SelectionFlags)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.selectionMode?4() -> QtStackedBar3DVis.QAbstractGraph3D.SelectionFlags
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.setShadowQuality?4(QtStackedBar3DVis.QAbstractGraph3D.ShadowQuality)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.shadowQuality?4() -> QtStackedBar3DVis.QAbstractGraph3D.ShadowQuality
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.scene?4() -> QtStackedBar3DVis.QScene3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.clearSelection?4()
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.activeInputHandler?4() -> QtStackedBar3DVis.QAbstractInputHandler3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.shadowsSupported?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.activeInputHandlerChanged?4(QtStackedBar3DVis.QAbstractInputHandler3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.activeThemeChanged?4(QtStackedBar3DVis.QTheme3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.selectionModeChanged?4(QtStackedBar3DVis.QAbstractGraph3D.SelectionFlags)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.shadowQualityChanged?4(QtStackedBar3DVis.QAbstractGraph3D.ShadowQuality)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.event?4(QEvent) -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.resizeEvent?4(QResizeEvent)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.exposeEvent?4(QExposeEvent)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.mouseDoubleClickEvent?4(QMouseEvent)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.touchEvent?4(QTouchEvent)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.mousePressEvent?4(QMouseEvent)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.mouseReleaseEvent?4(QMouseEvent)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.mouseMoveEvent?4(QMouseEvent)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.wheelEvent?4(QWheelEvent)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.addCustomItem?4(QtStackedBar3DVis.QCustomItem3D) -> int
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.removeCustomItems?4()
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.removeCustomItem?4(QtStackedBar3DVis.QCustomItem3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.removeCustomItemAt?4(QVector3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.releaseCustomItem?4(QtStackedBar3DVis.QCustomItem3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.selectedLabelIndex?4() -> int
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.selectedAxis?4() -> QtStackedBar3DVis.QAbstractAxis3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.selectedCustomItemIndex?4() -> int
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.selectedCustomItem?4() -> QtStackedBar3DVis.QCustomItem3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.renderToImage?4(int msaaSamples=0, QSize imageSize=QSize()) -> QImage
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.setMeasureFps?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.measureFps?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.currentFps?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.setOrthoProjection?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.isOrthoProjection?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.selectedElement?4() -> QtStackedBar3DVis.QAbstractGraph3D.ElementType
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.setAspectRatio?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.aspectRatio?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.setOptimizationHints?4(QtStackedBar3DVis.QAbstractGraph3D.OptimizationHints)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.optimizationHints?4() -> QtStackedBar3DVis.QAbstractGraph3D.OptimizationHints
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.measureFpsChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.currentFpsChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.orthoProjectionChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.aspectRatioChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.optimizationHintsChanged?4(QtStackedBar3DVis.QAbstractGraph3D.OptimizationHints)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.customItems?4() -> unknown-type
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.setPolar?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.isPolar?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.setRadialLabelOffset?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.radialLabelOffset?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.setHorizontalAspectRatio?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.horizontalAspectRatio?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.setReflection?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.isReflection?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.setReflectivity?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.reflectivity?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.setLocale?4(QLocale)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.locale?4() -> QLocale
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.queriedGraphPosition?4() -> QVector3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.setMargin?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.margin?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.polarChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.radialLabelOffsetChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.horizontalAspectRatioChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.reflectionChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.reflectivityChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.localeChanged?4(QLocale)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.queriedGraphPositionChanged?4(QVector3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.marginChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.hasContext?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D?1(QSurfaceFormat format=None, QWindow parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.__init__?1(self, QSurfaceFormat format=None, QWindow parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.setPrimarySeries?4(QtStackedBar3DVis.QBarSeries3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.primarySeries?4() -> QtStackedBar3DVis.QBarSeries3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.addSeries?4(QtStackedBar3DVis.QBarSeries3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.removeSeries?4(QtStackedBar3DVis.QBarSeries3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.insertSeries?4(int, QtStackedBar3DVis.QBarSeries3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.seriesList?4() -> unknown-type
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.setMultiSeriesUniform?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.isMultiSeriesUniform?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.setBarThickness?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.barThickness?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.setBarSpacing?4(QSizeF)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.barSpacing?4() -> QSizeF
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.setBarSpacingRelative?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.isBarSpacingRelative?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.setRowAxis?4(QtStackedBar3DVis.QCategoryAxis3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.rowAxis?4() -> QtStackedBar3DVis.QCategoryAxis3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.setColumnAxis?4(QtStackedBar3DVis.QCategoryAxis3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.columnAxis?4() -> QtStackedBar3DVis.QCategoryAxis3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.setValueAxis?4(QtStackedBar3DVis.QValueAxis3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.valueAxis?4() -> QtStackedBar3DVis.QValueAxis3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.addAxis?4(QtStackedBar3DVis.QAbstractAxis3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.releaseAxis?4(QtStackedBar3DVis.QAbstractAxis3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.axes?4() -> unknown-type
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.selectedSeries?4() -> QtStackedBar3DVis.QBarSeries3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.multiSeriesUniformChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.barThicknessChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.barSpacingChanged?4(QSizeF)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.barSpacingRelativeChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.rowAxisChanged?4(QtStackedBar3DVis.QCategoryAxis3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.columnAxisChanged?4(QtStackedBar3DVis.QCategoryAxis3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.valueAxisChanged?4(QtStackedBar3DVis.QValueAxis3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.primarySeriesChanged?4(QtStackedBar3DVis.QBarSeries3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.selectedSeriesChanged?4(QtStackedBar3DVis.QBarSeries3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.setFloorLevel?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.floorLevel?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBars3D.floorLevelChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QObject3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QObject3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QObject3D.copyValuesFrom?4(QtStackedBar3DVis.QObject3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QObject3D.parentScene?4() -> QtStackedBar3DVis.QScene3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QObject3D.position?4() -> QVector3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QObject3D.setPosition?4(QVector3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QObject3D.positionChanged?4(QVector3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QObject3D.setDirty?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QObject3D.isDirty?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPreset?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetNone?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetFrontLow?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetFront?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetFrontHigh?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetLeftLow?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetLeft?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetLeftHigh?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetRightLow?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetRight?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetRightHigh?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetBehindLow?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetBehind?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetBehindHigh?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetIsometricLeft?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetIsometricLeftHigh?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetIsometricRight?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetIsometricRightHigh?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetDirectlyAbove?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetDirectlyAboveCW45?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetDirectlyAboveCCW45?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetFrontBelow?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetLeftBelow?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetRightBelow?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetBehindBelow?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.CameraPresetDirectlyBelow?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.xRotation?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.setXRotation?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.yRotation?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.setYRotation?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.wrapXRotation?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.setWrapXRotation?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.wrapYRotation?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.setWrapYRotation?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.copyValuesFrom?4(QtStackedBar3DVis.QObject3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.cameraPreset?4() -> QtStackedBar3DVis.QCamera3D.CameraPreset
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.setCameraPreset?4(QtStackedBar3DVis.QCamera3D.CameraPreset)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.setCameraPosition?4(float, float, float zoom=100)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.zoomLevel?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.setZoomLevel?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.xRotationChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.yRotationChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.zoomLevelChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.cameraPresetChanged?4(QtStackedBar3DVis.QCamera3D.CameraPreset)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.wrapXRotationChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.wrapYRotationChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.minZoomLevel?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.setMinZoomLevel?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.maxZoomLevel?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.setMaxZoomLevel?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.target?4() -> QVector3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.setTarget?4(QVector3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.minZoomLevelChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.maxZoomLevelChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCamera3D.targetChanged?4(QVector3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.InputView?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.InputViewNone?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.InputViewOnPrimary?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.InputViewOnSecondary?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.mouseDoubleClickEvent?4(QMouseEvent)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.touchEvent?4(QTouchEvent)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.mousePressEvent?4(QMouseEvent, QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.mouseReleaseEvent?4(QMouseEvent, QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.mouseMoveEvent?4(QMouseEvent, QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.wheelEvent?4(QWheelEvent)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.inputView?4() -> QtStackedBar3DVis.QAbstractInputHandler3D.InputView
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.setInputView?4(QtStackedBar3DVis.QAbstractInputHandler3D.InputView)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.inputPosition?4() -> QPoint
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.setInputPosition?4(QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.scene?4() -> QtStackedBar3DVis.QScene3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.setScene?4(QtStackedBar3DVis.QScene3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.positionChanged?4(QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.inputViewChanged?4(QtStackedBar3DVis.QAbstractInputHandler3D.InputView)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.sceneChanged?4(QtStackedBar3DVis.QScene3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.setPrevDistance?4(int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.prevDistance?4() -> int
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.setPreviousInputPos?4(QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractInputHandler3D.previousInputPos?4() -> QPoint
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.mousePressEvent?4(QMouseEvent, QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.mouseReleaseEvent?4(QMouseEvent, QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.mouseMoveEvent?4(QMouseEvent, QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.wheelEvent?4(QWheelEvent)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.setRotationEnabled?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.isRotationEnabled?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.setZoomEnabled?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.isZoomEnabled?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.setSelectionEnabled?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.isSelectionEnabled?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.setZoomAtTargetEnabled?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.isZoomAtTargetEnabled?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.rotationEnabledChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.zoomEnabledChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.selectionEnabledChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QInputHandler3D.zoomAtTargetEnabledChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QLight3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QLight3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QLight3D.setAutoPosition?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QLight3D.isAutoPosition?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QLight3D.autoPositionChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.viewport?4() -> QRect
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.primarySubViewport?4() -> QRect
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.setPrimarySubViewport?4(QRect)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.isPointInPrimarySubView?4(QPoint) -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.secondarySubViewport?4() -> QRect
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.setSecondarySubViewport?4(QRect)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.isPointInSecondarySubView?4(QPoint) -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.setSelectionQueryPosition?4(QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.selectionQueryPosition?4() -> QPoint
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.invalidSelectionPoint?4() -> QPoint
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.setSlicingActive?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.isSlicingActive?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.setSecondarySubviewOnTop?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.isSecondarySubviewOnTop?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.activeCamera?4() -> QtStackedBar3DVis.QCamera3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.setActiveCamera?4(QtStackedBar3DVis.QCamera3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.activeLight?4() -> QtStackedBar3DVis.QLight3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.setActiveLight?4(QtStackedBar3DVis.QLight3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.devicePixelRatio?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.setDevicePixelRatio?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.viewportChanged?4(QRect)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.primarySubViewportChanged?4(QRect)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.secondarySubViewportChanged?4(QRect)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.secondarySubviewOnTopChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.slicingActiveChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.activeCameraChanged?4(QtStackedBar3DVis.QCamera3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.activeLightChanged?4(QtStackedBar3DVis.QLight3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.devicePixelRatioChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.selectionQueryPositionChanged?4(QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.setGraphPositionQuery?4(QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.graphPositionQuery?4() -> QPoint
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QScene3D.graphPositionQueryChanged?4(QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.Theme?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.ThemeQt?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.ThemePrimaryColors?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.ThemeDigia?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.ThemeStoneMoss?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.ThemeArmyBlue?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.ThemeRetro?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.ThemeEbony?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.ThemeIsabelle?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.ThemeUserDefined?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.ColorStyle?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.ColorStyleUniform?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.ColorStyleObjectGradient?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.ColorStyleRangeGradient?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D?1(QtStackedBar3DVis.QTheme3D.Theme, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.__init__?1(self, QtStackedBar3DVis.QTheme3D.Theme, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setType?4(QtStackedBar3DVis.QTheme3D.Theme)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.type?4() -> QtStackedBar3DVis.QTheme3D.Theme
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setBaseColors?4(unknown-type)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.baseColors?4() -> unknown-type
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setBackgroundColor?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.backgroundColor?4() -> QColor
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setWindowColor?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.windowColor?4() -> QColor
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setLabelTextColor?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.labelTextColor?4() -> QColor
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setLabelBackgroundColor?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.labelBackgroundColor?4() -> QColor
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setGridLineColor?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.gridLineColor?4() -> QColor
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setSingleHighlightColor?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.singleHighlightColor?4() -> QColor
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setMultiHighlightColor?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.multiHighlightColor?4() -> QColor
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setLightColor?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.lightColor?4() -> QColor
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setBaseGradients?4(unknown-type)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.baseGradients?4() -> unknown-type
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setSingleHighlightGradient?4(QLinearGradient)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.singleHighlightGradient?4() -> QLinearGradient
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setMultiHighlightGradient?4(QLinearGradient)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.multiHighlightGradient?4() -> QLinearGradient
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setLightStrength?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.lightStrength?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setAmbientLightStrength?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.ambientLightStrength?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setHighlightLightStrength?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.highlightLightStrength?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setLabelBorderEnabled?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.isLabelBorderEnabled?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setFont?4(QFont)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.font?4() -> QFont
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setBackgroundEnabled?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.isBackgroundEnabled?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setGridEnabled?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.isGridEnabled?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setLabelBackgroundEnabled?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.isLabelBackgroundEnabled?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.setColorStyle?4(QtStackedBar3DVis.QTheme3D.ColorStyle)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.colorStyle?4() -> QtStackedBar3DVis.QTheme3D.ColorStyle
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.typeChanged?4(QtStackedBar3DVis.QTheme3D.Theme)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.baseColorsChanged?4(unknown-type)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.backgroundColorChanged?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.windowColorChanged?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.labelTextColorChanged?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.labelBackgroundColorChanged?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.gridLineColorChanged?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.singleHighlightColorChanged?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.multiHighlightColorChanged?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.lightColorChanged?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.baseGradientsChanged?4(unknown-type)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.singleHighlightGradientChanged?4(QLinearGradient)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.multiHighlightGradientChanged?4(QLinearGradient)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.lightStrengthChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.ambientLightStrengthChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.highlightLightStrengthChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.labelBorderEnabledChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.fontChanged?4(QFont)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.backgroundEnabledChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.gridEnabledChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.labelBackgroundEnabledChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTheme3D.colorStyleChanged?4(QtStackedBar3DVis.QTheme3D.ColorStyle)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.AxisType?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.AxisTypeNone?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.AxisTypeCategory?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.AxisTypeValue?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.AxisOrientation?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.AxisOrientationNone?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.AxisOrientationX?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.AxisOrientationY?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.AxisOrientationZ?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.title?4() -> QString
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.setLabels?4(QStringList)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.labels?4() -> QStringList
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.orientation?4() -> QtStackedBar3DVis.QAbstractAxis3D.AxisOrientation
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.type?4() -> QtStackedBar3DVis.QAbstractAxis3D.AxisType
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.setMin?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.min?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.setMax?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.max?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.setAutoAdjustRange?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.isAutoAdjustRange?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.setRange?4(float, float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.setTitle?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.titleChanged?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.labelsChanged?4()
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.orientationChanged?4(QtStackedBar3DVis.QAbstractAxis3D.AxisOrientation)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.minChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.maxChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.rangeChanged?4(float, float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.autoAdjustRangeChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.setLabelAutoRotation?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.labelAutoRotation?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.setTitleVisible?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.isTitleVisible?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.setTitleFixed?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.isTitleFixed?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.labelAutoRotationChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.titleVisibilityChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractAxis3D.titleFixedChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionFlags?1()
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionFlags.__init__?1(self)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionFlags?1(int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionFlags.__init__?1(self, int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionFlags?1(QtStackedBar3DVis.QAbstractGraph3D.SelectionFlags)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.SelectionFlags.__init__?1(self, QtStackedBar3DVis.QAbstractGraph3D.SelectionFlags)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.OptimizationHints?1()
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.OptimizationHints.__init__?1(self)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.OptimizationHints?1(int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.OptimizationHints.__init__?1(self, int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.OptimizationHints?1(QtStackedBar3DVis.QAbstractGraph3D.OptimizationHints)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractGraph3D.OptimizationHints.__init__?1(self, QtStackedBar3DVis.QAbstractGraph3D.OptimizationHints)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.Mesh?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.MeshUserDefined?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.MeshBar?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.MeshCube?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.MeshPyramid?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.MeshCone?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.MeshCylinder?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.MeshBevelBar?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.MeshBevelCube?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.MeshSphere?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.MeshMinimal?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.MeshArrow?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.MeshPoint?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.SeriesType?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.SeriesTypeNone?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.SeriesTypeBar?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.SeriesTypeScatter?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.SeriesTypeSurface?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.type?4() -> QtStackedBar3DVis.QAbstractSeries3D.SeriesType
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setItemLabelFormat?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.itemLabelFormat?4() -> QString
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setVisible?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.isVisible?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setMesh?4(QtStackedBar3DVis.QAbstractSeries3D.Mesh)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.mesh?4() -> QtStackedBar3DVis.QAbstractSeries3D.Mesh
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setMeshSmooth?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.isMeshSmooth?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setMeshRotation?4(QQuaternion)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.meshRotation?4() -> QQuaternion
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setUserDefinedMesh?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.userDefinedMesh?4() -> QString
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setColorStyle?4(QtStackedBar3DVis.QTheme3D.ColorStyle)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.colorStyle?4() -> QtStackedBar3DVis.QTheme3D.ColorStyle
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setBaseColor?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.baseColor?4() -> QColor
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setBaseGradient?4(QLinearGradient)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.baseGradient?4() -> QLinearGradient
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setSingleHighlightColor?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.singleHighlightColor?4() -> QColor
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setSingleHighlightGradient?4(QLinearGradient)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.singleHighlightGradient?4() -> QLinearGradient
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setMultiHighlightColor?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.multiHighlightColor?4() -> QColor
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setMultiHighlightGradient?4(QLinearGradient)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.multiHighlightGradient?4() -> QLinearGradient
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setName?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.name?4() -> QString
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setMeshAxisAndAngle?4(QVector3D, float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.itemLabelFormatChanged?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.visibilityChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.meshChanged?4(QtStackedBar3DVis.QAbstractSeries3D.Mesh)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.meshSmoothChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.meshRotationChanged?4(QQuaternion)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.userDefinedMeshChanged?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.colorStyleChanged?4(QtStackedBar3DVis.QTheme3D.ColorStyle)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.baseColorChanged?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.baseGradientChanged?4(QLinearGradient)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.singleHighlightColorChanged?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.singleHighlightGradientChanged?4(QLinearGradient)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.multiHighlightColorChanged?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.multiHighlightGradientChanged?4(QLinearGradient)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.nameChanged?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.itemLabel?4() -> QString
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.setItemLabelVisible?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.isItemLabelVisible?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.itemLabelChanged?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractSeries3D.itemLabelVisibilityChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractDataProxy3D.DataType?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractDataProxy3D.DataTypeNone?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractDataProxy3D.DataTypeBar?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractDataProxy3D.DataTypeScatter?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractDataProxy3D.DataTypeSurface?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAbstractDataProxy3D.type?4() -> QtStackedBar3DVis.QAbstractDataProxy3D.DataType
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarSeries3D?1(QtStackedBar3DVis.QBarDataProxy3D, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarSeries3D.__init__?1(self, QtStackedBar3DVis.QBarDataProxy3D, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarSeries3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarSeries3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarSeries3D.setDataProxy?4(QtStackedBar3DVis.QBarDataProxy3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarSeries3D.dataProxy?4() -> QtStackedBar3DVis.QBarDataProxy3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarSeries3D.setSelectedBar?4(QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarSeries3D.selectedBar?4() -> QPoint
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarSeries3D.invalidSelectionPosition?4() -> QPoint
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarSeries3D.setMeshAngle?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarSeries3D.meshAngle?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarSeries3D.dataProxyChanged?4(QtStackedBar3DVis.QBarDataProxy3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarSeries3D.selectedBarChanged?4(QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarSeries3D.meshAngleChanged?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataItem3D?1()
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataItem3D.__init__?1(self)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataItem3D?1(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataItem3D.__init__?1(self, float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataItem3D?1(float, float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataItem3D.__init__?1(self, float, float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataItem3D?1(QtStackedBar3DVis.QBarDataItem3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataItem3D.__init__?1(self, QtStackedBar3DVis.QBarDataItem3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataItem3D.setValue?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataItem3D.value?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataItem3D.setRotation?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataItem3D.rotation?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.rowCount?4() -> int
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.rowLabels?4() -> QStringList
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.setRowLabels?4(QStringList)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.columnLabels?4() -> QStringList
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.setColumnLabels?4(QStringList)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.array?4() -> unknown-type
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.rowAt?4(int) -> unknown-type
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.itemAt?4(int, int) -> QtStackedBar3DVis.QBarDataItem3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.itemAt?4(QPoint) -> QtStackedBar3DVis.QBarDataItem3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.resetArray?4()
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.resetArray?4(unknown-type)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.resetArray?4(unknown-type, QStringList, QStringList)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.setRow?4(int, unknown-type)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.setRow?4(int, unknown-type, QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.setRows?4(int, unknown-type)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.setRows?4(int, unknown-type, QStringList)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.setItem?4(int, int, QtStackedBar3DVis.QBarDataItem3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.setItem?4(QPoint, QtStackedBar3DVis.QBarDataItem3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.addRow?4(unknown-type) -> int
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.addRow?4(unknown-type, QString) -> int
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.addRows?4(unknown-type) -> int
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.addRows?4(unknown-type, QStringList) -> int
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.insertRow?4(int, unknown-type)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.insertRow?4(int, unknown-type, QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.insertRows?4(int, unknown-type)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.insertRows?4(int, unknown-type, QStringList)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.removeRows?4(int, int, bool removeLabels=True)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.series?4() -> QtStackedBar3DVis.QBarSeries3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.arrayReset?4()
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.rowsAdded?4(int, int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.rowsChanged?4(int, int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.rowsRemoved?4(int, int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.rowsInserted?4(int, int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.itemChanged?4(int, int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.rowCountChanged?4(int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.rowLabelsChanged?4()
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.columnLabelsChanged?4()
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QBarDataProxy3D.seriesChanged?4(QtStackedBar3DVis.QBarSeries3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCategoryAxis3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCategoryAxis3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCategoryAxis3D.setLabels?4(QStringList)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCategoryAxis3D.labels?4() -> QStringList
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCategoryAxis3D.labelsChanged?4()
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D?1(QString, QVector3D, QVector3D, QQuaternion, QImage, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.__init__?1(self, QString, QVector3D, QVector3D, QQuaternion, QImage, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.setMeshFile?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.meshFile?4() -> QString
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.setTextureFile?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.textureFile?4() -> QString
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.setPosition?4(QVector3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.position?4() -> QVector3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.setPositionAbsolute?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.isPositionAbsolute?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.setScaling?4(QVector3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.scaling?4() -> QVector3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.setRotation?4(QQuaternion)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.rotation?4() -> QQuaternion
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.setVisible?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.isVisible?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.setShadowCasting?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.isShadowCasting?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.setRotationAxisAndAngle?4(QVector3D, float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.setTextureImage?4(QImage)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.meshFileChanged?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.textureFileChanged?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.positionChanged?4(QVector3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.positionAbsoluteChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.scalingChanged?4(QVector3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.rotationChanged?4(QQuaternion)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.visibleChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.shadowCastingChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.setScalingAbsolute?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.isScalingAbsolute?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomItem3D.scalingAbsoluteChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D?1(QString, QFont, QVector3D, QVector3D, QQuaternion, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.__init__?1(self, QString, QFont, QVector3D, QVector3D, QQuaternion, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.setText?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.text?4() -> QString
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.setFont?4(QFont)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.font?4() -> QFont
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.setTextColor?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.textColor?4() -> QColor
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.setBackgroundColor?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.backgroundColor?4() -> QColor
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.setBorderEnabled?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.isBorderEnabled?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.setBackgroundEnabled?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.isBackgroundEnabled?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.setFacingCamera?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.isFacingCamera?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.textChanged?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.fontChanged?4(QFont)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.textColorChanged?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.backgroundColorChanged?4(QColor)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.borderEnabledChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.backgroundEnabledChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QCustomLabel3D.facingCameraChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.DrawFlag?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.DrawWireframe?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.DrawSurface?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.DrawSurfaceAndWireframe?10
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D?1(QtStackedBar3DVis.QSurfaceDataProxy3D, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.__init__?1(self, QtStackedBar3DVis.QSurfaceDataProxy3D, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.setDataProxy?4(QtStackedBar3DVis.QSurfaceDataProxy3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.dataProxy?4() -> QtStackedBar3DVis.QSurfaceDataProxy3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.setSelectedPoint?4(QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.selectedPoint?4() -> QPoint
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.invalidSelectionPosition?4() -> QPoint
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.setFlatShadingEnabled?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.isFlatShadingEnabled?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.setDrawMode?4(QtStackedBar3DVis.QSurfaceSeries3D.DrawFlags)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.drawMode?4() -> QtStackedBar3DVis.QSurfaceSeries3D.DrawFlags
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.isFlatShadingSupported?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.dataProxyChanged?4(QtStackedBar3DVis.QSurfaceDataProxy3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.selectedPointChanged?4(QPoint)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.flatShadingEnabledChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.flatShadingSupportedChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.drawModeChanged?4(QtStackedBar3DVis.QSurfaceSeries3D.DrawFlags)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.setTexture?4(QImage)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.texture?4() -> QImage
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.setTextureFile?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.textureFile?4() -> QString
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.textureChanged?4(QImage)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.textureFileChanged?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.DrawFlags?1()
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.DrawFlags.__init__?1(self)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.DrawFlags?1(int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.DrawFlags.__init__?1(self, int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.DrawFlags?1(QtStackedBar3DVis.QSurfaceSeries3D.DrawFlags)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceSeries3D.DrawFlags.__init__?1(self, QtStackedBar3DVis.QSurfaceSeries3D.DrawFlags)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataItem3D?1()
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataItem3D.__init__?1(self)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataItem3D?1(QVector3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataItem3D.__init__?1(self, QVector3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataItem3D?1(QtStackedBar3DVis.QSurfaceDataItem3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataItem3D.__init__?1(self, QtStackedBar3DVis.QSurfaceDataItem3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataItem3D.setPosition?4(QVector3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataItem3D.position?4() -> QVector3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataItem3D.setX?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataItem3D.setY?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataItem3D.setZ?4(float)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataItem3D.x?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataItem3D.y?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataItem3D.z?4() -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.rowCount?4() -> int
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.columnCount?4() -> int
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.array?4() -> unknown-type
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.resetArray?4(unknown-type)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.setRow?4(int, unknown-type)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.setRows?4(int, unknown-type)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.setItem?4(int, int, QtStackedBar3DVis.QSurfaceDataItem3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.setItem?4(QPoint, QtStackedBar3DVis.QSurfaceDataItem3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.addRow?4(unknown-type) -> int
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.addRows?4(unknown-type) -> int
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.insertRow?4(int, unknown-type)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.insertRows?4(int, unknown-type)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.removeRows?4(int, int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.series?4() -> QtStackedBar3DVis.QSurfaceSeries3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.itemAt?4(int, int) -> QtStackedBar3DVis.QSurfaceDataItem3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.itemAt?4(QPoint) -> QtStackedBar3DVis.QSurfaceDataItem3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.arrayReset?4()
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.rowsAdded?4(int, int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.rowsChanged?4(int, int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.rowsRemoved?4(int, int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.rowsInserted?4(int, int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.itemChanged?4(int, int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.rowCountChanged?4(int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.columnCountChanged?4(int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QSurfaceDataProxy3D.seriesChanged?4(QtStackedBar3DVis.QSurfaceSeries3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTouchInputHandler3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTouchInputHandler3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QTouchInputHandler3D.touchEvent?4(QTouchEvent)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.setSegmentCount?4(int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.segmentCount?4() -> int
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.setSubSegmentCount?4(int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.subSegmentCount?4() -> int
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.setLabelFormat?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.labelFormat?4() -> QString
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.segmentCountChanged?4(int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.subSegmentCountChanged?4(int)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.labelFormatChanged?4(QString)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.setFormatter?4(QtStackedBar3DVis.QAxisValueFormatter3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.formatter?4() -> QtStackedBar3DVis.QAxisValueFormatter3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.setReversed?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.reversed?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.formatterChanged?4(QtStackedBar3DVis.QAxisValueFormatter3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QValueAxis3D.reversedChanged?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D?1(QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.__init__?1(self, QObject parent=None)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.setAllowNegatives?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.allowNegatives?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.setAllowZero?4(bool)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.allowZero?4() -> bool
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.createNewInstance?4() -> QtStackedBar3DVis.QAxisValueFormatter3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.recalculate?4()
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.stringForValue?4(float, QString) -> QString
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.positionAt?4(float) -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.valueAt?4(float) -> float
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.populateCopy?4(QtStackedBar3DVis.QAxisValueFormatter3D)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.markDirty?4(bool labelsChange=False)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.axis?4() -> QtStackedBar3DVis.QValueAxis3D
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.gridPositions?4() -> unknown-type
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.subGridPositions?4() -> unknown-type
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.labelPositions?4() -> unknown-type
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.labelStrings?4() -> QStringList
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.setLocale?4(QLocale)
+PyQt5.QtStackedBars3D.QtStackedBar3DVis.QAxisValueFormatter3D.locale?4() -> QLocale
