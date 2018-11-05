@@ -1582,6 +1582,9 @@ INSTALLS += sip
         pro.write('DEFINES += %s\n' % defines)
     pro.write('DEFINES += QWT_PYTHON_WRAPPER\n')
 
+    if target_config.py_debug:
+        pro.write('DEFINES += Py_TRACE_REFS\n')
+
     includepath = qmake_config.get('INCLUDEPATH')
     
     if not includepath:
@@ -1604,6 +1607,11 @@ INSTALLS += sip
         if target_config.qwt_lib == None:
             inform("Adding QtStackedBars3D library as linker dependency")
             pro.write('LIBS += %s -lQtStackedBars3D\n' % libs)
+            
+            if target_config.py_debug:
+                inform("Adding Python debug library.")
+                pro.write("LIBS += -lpython3.5dm")
+            
         else:
             inform("Adding libs = " + str(repr(libs)) + ", -l" + str(target_config.qwt_lib))
             pro.write('LIBS += %s -l%s\n' % (libs,target_config.qwt_lib))            

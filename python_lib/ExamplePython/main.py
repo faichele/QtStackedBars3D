@@ -1,7 +1,7 @@
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
-import QtStackedBars3D
+from PyQt5.QtStackedBars3D import *
         
 if __name__=="__main__":
     import sys
