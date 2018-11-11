@@ -34,11 +34,12 @@
 
 #include <QStackedBarDataItem3D.h>
 #include <QtCore/QVector>
+#include <QtCore/QList>
 #include <QtCore/QStringList>
 
 namespace QtStackedBar3DVis
 {
-	typedef QVector<QStackedBarDataItem3D> QStackedBarDataRow3D;
+    typedef QList<QStackedBarDataItem3D> QStackedBarDataRow3D;
 	typedef QList<QStackedBarDataRow3D *> QStackedBarDataArray3D;
 
 	class QStackedBarDataProxy3DPrivate;
@@ -86,8 +87,10 @@ namespace QtStackedBar3DVis
 		void setItem(const QPoint &position, const QStackedBarDataItem3D &item);
 
 		int addRow(QStackedBarDataRow3D *row);
-		int addRow(QStackedBarDataRow3D *row, const QString &label);
-		int addRows(const QStackedBarDataArray3D &rows);
+        int addRow(const QList<qreal> &values, unsigned int stride);
+        int addRow(QStackedBarDataRow3D *row, const QString &label);
+        int addRow(const QList<qreal>& values, unsigned int stride, const QString& label);
+        int addRows(const QStackedBarDataArray3D &rows);
 		int addRows(const QStackedBarDataArray3D &rows, const QStringList &labels);
 
 		void insertRow(int rowIndex, QStackedBarDataRow3D *row);

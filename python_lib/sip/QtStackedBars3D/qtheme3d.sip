@@ -66,6 +66,7 @@ namespace QtStackedBar3DVis
             {sipName_QtStackedBar3DVis__QSurfaceDataProxy3D, &sipType_QtStackedBar3DVis_QSurfaceDataProxy3D, 16, 14},
             /*{sipName_QtStackedBar3DVis__QScatterDataProxy3D, &sipType_QtStackedBar3DVis_QScatterDataProxy3D, 18, 15},*/
             {sipName_QtStackedBar3DVis__QBarDataProxy3D, &sipType_QtStackedBar3DVis_QBarDataProxy3D, 19, -1},
+            {sipName_QtStackedBar3DVis__QStackedBarDataProxy3D, &sipType_QtStackedBar3DVis_QStackedBarDataProxy3D, -1, -1},
             /*{sipName_QtStackedBar3DVis__QItemModelSurfaceDataProxy, &sipType_QtStackedBar3DVis_QItemModelSurfaceDataProxy, -1, 17},
             {sipName_QtStackedBar3DVis__QHeightMapSurfaceDataProxy, &sipType_QtStackedBar3DVis_QHeightMapSurfaceDataProxy, -1, -1},
             {sipName_QtStackedBar3DVis__QItemModelScatterDataProxy, &sipType_QtStackedBar3DVis_QItemModelScatterDataProxy, -1, -1},
@@ -88,8 +89,11 @@ namespace QtStackedBar3DVis
             /*{sipName_QtStackedBar3DVis__Q3DSurface, &sipType_QtStackedBar3DVis_Q3DSurface, -1, 28},
             {sipName_QtStackedBar3DVis__Q3DScatter, &sipType_QtStackedBar3DVis_Q3DScatter, -1, 29},*/
             {sipName_QtStackedBar3DVis__QBars3D, &sipType_QtStackedBar3DVis_QBars3D, -1, -1},
+            {sipName_QtStackedBar3DVis__QStackedBars3D, &sipType_QtStackedBar3DVis_QStackedBars3D, -1, -1},
             {sipName_QtStackedBar3DVis__QCamera3D, &sipType_QtStackedBar3DVis_QCamera3D, -1, 31},
             {sipName_QtStackedBar3DVis__QLight3D, &sipType_QtStackedBar3DVis_QLight3D, -1, -1},
+            {sipName_QtStackedBar3DVis__QStackedBarSeries3D, &sipType_QtStackedBar3DVis_QStackedBarSeries3D, -1, -1},
+
         };
         
         int i = 0;

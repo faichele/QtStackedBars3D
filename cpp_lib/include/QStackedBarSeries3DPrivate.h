@@ -27,6 +27,8 @@ namespace QtStackedBar3DVis
 		const QList<QColor>& sectionColors();
 		void setSectionColors(const QList<QColor>& sectionColors);
 
+        void setSectionColor(unsigned int index, unsigned int r, unsigned int g, unsigned int b, unsigned int a);
+
 		void connectSignals();
 
 	private:

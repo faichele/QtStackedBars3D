@@ -293,6 +293,11 @@ namespace QtStackedBar3DVis
 		dptr()->setSectionColors(sectionColors);
 	}
 
+    void QStackedBarSeries3D::setSectionColor(unsigned int index, unsigned int r, unsigned int g, unsigned int b, unsigned int a)
+    {
+        dptr()->setSectionColor(index, r, g, b, a);
+    }
+
 	/*!
 	* \internal
 	*/
@@ -472,5 +477,43 @@ namespace QtStackedBar3DVis
 		if (m_controller)
 			m_controller->markSeriesVisualsDirty();
 	}
+
+    void QStackedBarSeries3DPrivate::setSectionColor(unsigned int index, unsigned int r, unsigned int g, unsigned int b, unsigned int a)
+    {
+        qDebug() << "setSectionColor(" << index << ", " << r << ", " << g << ", " << b << ", " << a << ")";
+
+        if (m_sectionColors.size() == 0)
+        {
+            m_sectionColors.append(QColor(r, g, b, a));
+        }
+        else
+        {
+            qDebug() << "index = " << index << ", m_sectionColors size = " << m_sectionColors.size();
+            if (index > m_sectionColors.size() - 1)
+            {
+                qDebug() << "Index " << index << " is larger than list size " << m_sectionColors.size();
+                int diff = (index - m_sectionColors.size()) + 1;
+
+                if (diff > 0)
+                {
+                    qDebug() << "Appending new QColors: " << diff;
+                    m_sectionColors.reserve(diff);
+                    while (diff > 0)
+                    {
+                        QColor sectionColor;
+                        m_sectionColors.append(sectionColor);
+                        diff--;
+                    }
+                }
+            }
+
+            qDebug() << "Now setting QColor at target index " << index << "; new color list size = " << m_sectionColors.size();
+            m_sectionColors[index] = QColor(r, g, b, a);
+        }
+
+        m_changeTracker.colorRangeChanged = true;
+        if (m_controller)
+            m_controller->markSeriesVisualsDirty();
+    }
 
 }

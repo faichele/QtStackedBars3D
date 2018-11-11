@@ -49,6 +49,9 @@ WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 //%HideNamespace QtStackedBars3D
 
 %Include qbars3d.sip
+
+%Include qstackedbars3d.sip
+
 %Include qcamera3d.sip
 %Include qinputhandler3d.sip
 %Include qlight3d.sip
@@ -60,9 +63,15 @@ WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 %Include qabstractinputhandler3d.sip
 %Include qabstractseries3d.sip
 %Include qabstractdataproxy3d.sip
+
 %Include qbarseries3d.sip
 %Include qbardataitem3d.sip
 %Include qbardataproxy3d.sip
+
+%Include qstackedbarseries3d.sip
+%Include qstackedbardataitem3d.sip
+%Include qstackedbardataproxy3d.sip
+
 %Include qcategoryaxis3d.sip
 %Include qcustomitem3d.sip
 %Include qcustomlabel3d.sip

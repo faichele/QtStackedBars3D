@@ -208,13 +208,13 @@ namespace QtStackedBar3DVis
 		void mousePressEvent(QMouseEvent *event);
 		void mouseReleaseEvent(QMouseEvent *event);
 		void mouseMoveEvent(QMouseEvent *event);
-#ifdef Q_WS_WIN
+//#ifdef Q_WS_WIN
 #if QT_CONFIG(wheelevent)
-#endif
+//#endif
 		void wheelEvent(QWheelEvent *event);
-#ifdef Q_WS_WIN
+//#ifdef Q_WS_WIN
 #endif
-#endif
+//#endif
 
 	Q_SIGNALS:
 		void activeInputHandlerChanged(QAbstractInputHandler3D *inputHandler);

@@ -310,13 +310,13 @@ namespace QtStackedBar3DVis
 		virtual void mousePressEvent(QMouseEvent *event, const QPoint &mousePos);
 		virtual void mouseReleaseEvent(QMouseEvent *event, const QPoint &mousePos);
 		virtual void mouseMoveEvent(QMouseEvent *event, const QPoint &mousePos);
-#ifdef Q_WS_WIN
+//#ifdef Q_WS_WIN
 #if QT_CONFIG(wheelevent)
-#endif
+//#endif
 		virtual void wheelEvent(QWheelEvent *event);
-#ifdef Q_WS_WIN
+//#ifdef Q_WS_WIN
 #endif
-#endif
+//#endif
 
 		virtual void handleAxisTitleChangedBySender(QObject *sender);
 		virtual void handleAxisLabelsChangedBySender(QObject *sender);

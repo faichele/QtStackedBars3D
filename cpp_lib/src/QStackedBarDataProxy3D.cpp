@@ -30,6 +30,8 @@
 #include "QStackedBarDataProxy3DPrivate.h"
 #include "QStackedBarSeries3D.h"
 
+#include <QDebug>
+
 namespace QtStackedBar3DVis
 {
 
@@ -189,6 +191,15 @@ namespace QtStackedBar3DVis
 	void QStackedBarDataProxy3D::resetArray(QStackedBarDataArray3D *newArray, const QStringList &rowLabels,
 		const QStringList &columnLabels)
 	{
+        qDebug() << "resetArray(): rowLabels = " << rowLabels << ", columnLabels = " << columnLabels;
+
+        if (newArray != NULL)
+        {
+            qDebug() << "dataArray size = " << newArray->size();
+            for (unsigned int k = 0; k < newArray->size(); k++)
+                qDebug() << k << ": " << (*newArray)[k];
+        }
+
 		dptr()->resetArray(newArray, &rowLabels, &columnLabels);
 		emit arrayReset();
 		emit rowCountChanged(rowCount());
@@ -276,6 +287,54 @@ namespace QtStackedBar3DVis
 		emit rowCountChanged(rowCount());
 		return addIndex;
 	}
+
+    int QStackedBarDataProxy3D::addRow(const QList<qreal> &values, unsigned int stride)
+    {
+        QStackedBarDataRow3D* row = new QStackedBarDataRow3D();
+        row->reserve(values.size() / stride);
+        unsigned int row_idx = 0;
+        QList<qreal> values_per_bar;
+
+        foreach (qreal value, values)
+        {
+            values_per_bar.push_back(value);
+            if (row_idx % stride == 0)
+            {
+                row->push_back(QStackedBarDataItem3D(values_per_bar));
+                values_per_bar.clear();
+            }
+        }
+
+        int addIndex = dptr()->addRow(row, 0);
+        emit rowsAdded(addIndex, 1);
+        emit rowCountChanged(rowCount());
+        return addIndex;
+    }
+
+    int QStackedBarDataProxy3D::addRow(const QList<qreal> &values, unsigned int stride, const QString &label)
+    {
+        qDebug() << "addRow(" << values << ", " << stride << ", " << label << ")";
+        QStackedBarDataRow3D* row = new QStackedBarDataRow3D();
+        row->reserve(values.size() / stride);
+        unsigned int row_idx = 0;
+        QList<qreal> values_per_bar;
+
+        foreach (qreal value, values)
+        {
+            values_per_bar.push_back(value);
+            if (row_idx % stride == 0)
+            {
+                row->push_back(QStackedBarDataItem3D(values_per_bar));
+                values_per_bar.clear();
+            }
+            row_idx++;
+        }
+
+        int addIndex = dptr()->addRow(row, &label);
+        emit rowsAdded(addIndex, 1);
+        emit rowCountChanged(rowCount());
+        return addIndex;
+    }
 
 	/*!
 	* Adds a the new row \a row with the label \a label to the end of an array.
@@ -597,16 +656,28 @@ namespace QtStackedBar3DVis
 			m_sectionCount = 1;
 		}
 
-		if (newArray != m_dataArray) {
+        if (newArray != m_dataArray)
+        {
 			clearArray();
 			m_dataArray = newArray;
-			if (m_dataArray->size() > 0 && m_dataArray->at(0)->size() > 0)
+
+            qDebug() << "dPtr()->resetArray(): rowLabels = " << rowLabels << ", columnLabels = " << columnLabels;
+            if (newArray != NULL)
+            {
+                qDebug() << "dataArray size = " << newArray->size();
+                for (unsigned int k = 0; k < newArray->size(); k++)
+                    qDebug() << k << ": " << (*newArray)[k];
+            }
+
+            if (m_dataArray->size() > 0 && m_dataArray->at(0)->size() > 0)
 			{
 				m_sectionCount = m_dataArray->at(0)->at(0).values().size();
+                qDebug() << " new section count: " << m_sectionCount;
 			}
 			else
 			{
 				m_sectionCount = 1;
+                qDebug() << " new section count set to 1, m_dataArray has size: " << m_dataArray->size();
 			}
 		}
 	}

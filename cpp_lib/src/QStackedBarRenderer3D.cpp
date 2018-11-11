@@ -283,7 +283,7 @@ namespace QtStackedBar3DVis
 			}
 		}
 
-		QList<float> initialValues;
+        QList<qreal> initialValues;
 		for (int k = 0; k < sectionCount; k++)
 			initialValues << 0.0f;
 
@@ -297,8 +297,8 @@ namespace QtStackedBar3DVis
 	void QStackedBarsRenderer3D::updateRenderItem(const QStackedBarDataItem3D &dataItem, QStackedBarRenderItem3D &renderItem)
 	{
 		//qDebug() << "updateRenderItem -- renderItem: " << renderItem.position() << ", dataItem: " << dataItem.values();
-		const QList<float>& values = dataItem.values();
-		QList<float> heightValues;
+        const QList<qreal>& values = dataItem.values();
+        QList<qreal> heightValues;
 		float totalHeight = 0.0f;
 		foreach(float value, values)
 		{
@@ -329,7 +329,7 @@ namespace QtStackedBar3DVis
 		renderItem.setValues(values);
 		renderItem.setHeights(heightValues);
 
-		const QList<float>& angles = dataItem.rotations();
+        const QList<qreal>& angles = dataItem.rotations();
 		if (angles.size() > 0) 
 		{
 			// Render items all share the same angle/rotation
@@ -398,16 +398,20 @@ namespace QtStackedBar3DVis
 			if (row < minRow || row > maxRow)
 				continue;
 			QStackedBarSeries3D *currentSeries = item.series;
-			if (currentSeries != prevSeries) {
+            if (currentSeries != prevSeries)
+            {
 				cache = static_cast<QStackedBarSeriesRenderCache3D *>(m_renderCacheList.value(currentSeries));
 				prevSeries = currentSeries;
 				dataArray = item.series->dataProxy()->array();
-				// Invisible series render caches are not updated, but instead just marked dirty, so that
+                qDebug() << "Updating QStackedBarSeries3D: dataArray size = " << dataArray->size();
+                qDebug() << "dataArray = " << *dataArray;
+                // Invisible series render caches are not updated, but instead just marked dirty, so that
 				// they can be completely recalculated when they are turned visible.
 				if (!cache->isVisible() && !cache->dataDirty())
 					cache->setDataDirty(true);
 			}
-			if (cache->isVisible()) {
+            if (cache->isVisible())
+            {
 				updateRenderRow(dataArray->at(row), cache->renderArray()[row - minRow]);
 				if (m_cachedIsSlicingActivated
 					&& cache == m_selectedSeriesCache
@@ -767,11 +771,11 @@ namespace QtStackedBar3DVis
 						selectedItem = &item;
 					}
 
-					const QList<float>& itemValues = item.values();
+                    const QList<qreal>& itemValues = item.values();
 					if (!itemValues.size())
 						continue;
 
-					const QList<float>& itemHeights = item.heights();
+                    const QList<qreal>& itemHeights = item.heights();
 
 					float totalHeight = 0.0f;
 					foreach(float height, itemHeights)
@@ -904,8 +908,8 @@ namespace QtStackedBar3DVis
 					for (int col = 0; col < sliceCount; col++) {
 						QStackedBarRenderSliceItem3D &item = sliceArray[col];
 
-						const QList<float>& itemValues = item.values();
-						const QList<float>& itemHeights = item.heights();
+                        const QList<qreal>& itemValues = item.values();
+                        const QList<qreal>& itemHeights = item.heights();
 
 						unsigned int valueIdx = 0;
 						foreach(float value, itemValues)
@@ -947,8 +951,8 @@ namespace QtStackedBar3DVis
 			// Only draw value for selected item when grid labels are on
 			// Create label texture if we need it
 			
-			const QList<float> itemValues = selectedItem->values();
-			const QList<float> itemHeights = selectedItem->heights();
+            const QList<qreal> itemValues = selectedItem->values();
+            const QList<qreal> itemHeights = selectedItem->heights();
 
 			unsigned int valueIdx = 0;
 			foreach(float value, itemValues)
@@ -1157,17 +1161,17 @@ namespace QtStackedBar3DVis
 						for (int bar = startBar; bar != stopBar; bar += stepBar) {
 							const QStackedBarRenderItem3D &item = renderRow.at(bar);
 
-							const QList<float>& itemValues = item.values();
+                            const QList<qreal>& itemValues = item.values();
 
 							if (!itemValues.size())
 								continue;
 
-							const QList<float>& itemHeights = item.heights();
+                            const QList<qreal>& itemHeights = item.heights();
 
 							GLfloat shadowOffset = 0.0f;
 
 							float totalHeight = 0.0f;
-							foreach(float height, itemHeights)
+                            foreach(qreal height, itemHeights)
 							{
 								// Set front face culling for negative valued bars and back face culling
 								// for positive valued bars to remove peter-panning issues
@@ -1294,14 +1298,14 @@ namespace QtStackedBar3DVis
 						for (int bar = startBar; bar != stopBar; bar += stepBar) {
 							const QStackedBarRenderItem3D &item = renderRow.at(bar);
 
-							const QList<float>& itemValues = item.values();
+                            const QList<qreal>& itemValues = item.values();
 
 							if (!itemValues.size())
 								continue;
 
-							const QList<float> itemHeights = item.heights();
+                            const QList<qreal> itemHeights = item.heights();
 							float totalHeight = 0.0f;
-							foreach(float height, itemHeights)
+                            foreach(qreal height, itemHeights)
 							{
 								totalHeight += std::fabs(height);
 
@@ -1462,7 +1466,7 @@ namespace QtStackedBar3DVis
 				m_selectedBar = selectedBar;
 			}
 
-			const QList<float>& itemHeights = m_selectedBar->heights();
+            const QList<qreal>& itemHeights = m_selectedBar->heights();
 			float totalHeight = 0.0f;
 			float previousHeight = 0.0f;
 			unsigned int itemIdx = 0;
@@ -1527,6 +1531,8 @@ namespace QtStackedBar3DVis
 		QVector3D lightPos = m_cachedScene->activeLight()->position();
 		QVector4D lightColor = QUtils3D::vectorFromColor(m_cachedTheme->lightColor());
 
+        qDebug() << "drawRows(): row " << startRow << " to " << stopRow << ", bar " << startBar << " to " << stopBar << ", stepBar = " << stepBar;
+
 		bool rowMode = m_cachedSelectionMode.testFlag(QAbstractGraph3D::SelectionRow);
 
 		QShaderHelper3D *barShader = 0;
@@ -1587,7 +1593,8 @@ namespace QtStackedBar3DVis
 		QVector3D modelScaler(m_scaleX * m_seriesScaleX, 0.0f, m_scaleZ * m_seriesScaleZ);
 		bool somethingSelected =
 			(m_visualSelectedBarPos != QStackedBarsController3D::invalidSelectionPosition());
-		foreach(QSeriesRenderCache3D *baseCache, m_renderCacheList) {
+        foreach(QSeriesRenderCache3D *baseCache, m_renderCacheList)
+        {
 			if (baseCache->isVisible()) {
 				QStackedBarSeriesRenderCache3D *cache = static_cast<QStackedBarSeriesRenderCache3D *>(baseCache);
 				float seriesPos = m_seriesStart + m_seriesStep * cache->visualIndex() + 0.5f;
@@ -1627,19 +1634,21 @@ namespace QtStackedBar3DVis
 				previousColorStyle = colorStyle;
 				const QList<QVector4D>& itemSectionColors = cache->sectionColors();
 
-				for (int row = startRow; row != stopRow; row += stepRow) {
+                for (int row = startRow; row != stopRow; row += stepRow)
+                {
 					QStackedBarRenderItemRow3D &renderRow = renderArray[row];
-					for (int bar = startBar; bar != stopBar; bar += stepBar) {
+                    for (int bar = startBar; bar != stopBar; bar += stepBar)
+                    {
 						QStackedBarRenderItem3D &item = renderRow[bar];
 
-						const QList<float>& itemValues = item.values();
-						const QList<float>& itemHeights = item.heights();
-						//qDebug() << "item " << item.position() << " itemHeights: " << itemHeights << " with itemValues: " << itemValues;
+                        const QList<qreal>& itemValues = item.values();
+                        const QList<qreal>& itemHeights = item.heights();
+                        // qDebug() << "Item " << item.position() << " itemHeights: " << itemHeights << " with itemValues: " << itemValues;
 
 						unsigned int itemIdx = 0;
-						float totalHeight = 0.0f;
-						float previousHeight = 0.0f;
-						foreach(float height, itemHeights)
+                        qreal totalHeight = 0.0f;
+                        qreal previousHeight = 0.0f;
+                        foreach(qreal height, itemHeights)
 						{
 							totalHeight += height;
 
@@ -1656,16 +1665,16 @@ namespace QtStackedBar3DVis
 							GLfloat colPos = (bar + seriesPos) * (m_cachedBarSpacing.width());
 							GLfloat rowPos = (row + 0.5f) * (m_cachedBarSpacing.height());
 
-							float usedHeight = totalHeight;
+                            qreal usedHeight = totalHeight;
 							if (itemIdx >= 1)
 							{
 								previousHeight = 0.0f;
 								for (int m = 0; m <= itemIdx - 1; m++)
 								{
-									//qDebug() << " adding " << itemHeights[m];
+                                    // qDebug() << " Adding " << itemHeights[m];
 									previousHeight += itemHeights[m];
 								}
-								//qDebug() << " total previousHeight = " << previousHeight;
+                                // qDebug() << " Total previousHeight = " << previousHeight;
 								usedHeight += previousHeight;
 							}
 
@@ -1673,8 +1682,8 @@ namespace QtStackedBar3DVis
 								usedHeight,
 								(m_columnDepth - rowPos) / m_scaleFactor);
 
-							//qDebug() << "Translation for bar: (" << ((colPos - m_rowWidth) / m_scaleFactor) << ", " << usedHeight << ", " << ((m_columnDepth - rowPos) / m_scaleFactor) << ")";
-							//qDebug() << "totalHeight = " << totalHeight << ", height = " << height << ", previousHeight = " << previousHeight <<  ", usedHeight = " << usedHeight;
+                            // qDebug() << "Translation for bar: (" << ((colPos - m_rowWidth) / m_scaleFactor) << ", " << usedHeight << ", " << ((m_columnDepth - rowPos) / m_scaleFactor) << ")";
+                            // qDebug() << "totalHeight = " << totalHeight << ", height = " << height << ", previousHeight = " << previousHeight <<  ", usedHeight = " << usedHeight;
 
 							modelScaler.setY(height);
 
@@ -1699,116 +1708,126 @@ namespace QtStackedBar3DVis
 								if (somethingSelected)
 									selectionType = isSelected(row, bar, cache);
 
-								switch (selectionType) {
-								case QStackedBarsController3D::SelectionItem: 
-								{
-									if (colorStyleIsUniform)
-									{
-										// barColor = cache->singleHighlightColor();
-										barColor = itemSectionColors.at(itemIdx);
-									}
-									else
-									{
-										gradientTexture = cache->singleHighlightGradientTexture();
-									}
-									lightStrength = m_cachedTheme->highlightLightStrength();
-									shadowLightStrength = adjustedHighlightStrength;
-									// Insert position data into render item
-									// We have no ownership, don't delete the previous one
-									if (!m_cachedIsSlicingActivated
-										&& m_selectedSeriesCache == cache) {
-										*selectedBar = &item;
-										(*selectedBar)->setPosition(QPoint(row, bar));
-										item.setTranslation(modelMatrix.column(3).toVector3D());
-										barSelectionFound = true;
-									}
-									if (m_selectionDirty && m_cachedIsSlicingActivated) {
-										QVector3D translation = modelMatrix.column(3).toVector3D();
-										if (m_cachedSelectionMode & QAbstractGraph3D::SelectionColumn
-											&& m_visibleSeriesCount > 1) {
-											translation.setZ((m_columnDepth
-												- ((row + seriesPos)
-													* (m_cachedBarSpacing.height())))
-												/ m_scaleFactor);
-										}
-										item.setTranslation(translation);
-										item.setPosition(QPoint(row, bar));
-										if (rowMode)
-											cache->sliceArray()[bar].setItem(item);
-										else
-											cache->sliceArray()[row].setItem(item);
-									}
-									break;
-								}
-								case QStackedBarsController3D::SelectionRow: {
-									// Current bar is on the same row as the selected bar
-									if (colorStyleIsUniform)
-									{
-										// barColor = cache->multiHighlightColor();
-										barColor = itemSectionColors.at(itemIdx);
-									}
-									else
-									{
-										gradientTexture = cache->multiHighlightGradientTexture();
-									}
-									lightStrength = m_cachedTheme->highlightLightStrength();
-									shadowLightStrength = adjustedHighlightStrength;
-									if (m_cachedIsSlicingActivated) {
-										item.setTranslation(modelMatrix.column(3).toVector3D());
-										item.setPosition(QPoint(row, bar));
-										if (m_selectionDirty) {
-											if (!m_sliceTitleItem && m_axisCacheZ.labelItems().size() > row)
-												m_sliceTitleItem = m_axisCacheZ.labelItems().at(row);
-											cache->sliceArray()[bar].setItem(item);
-										}
-									}
-									break;
-								}
-								case QStackedBarsController3D::SelectionColumn: {
-									// Current bar is on the same column as the selected bar
-									if (colorStyleIsUniform)
-									{
-										// barColor = cache->multiHighlightColor();
-										barColor = itemSectionColors.at(itemIdx);
-									}
-									else
-									{
-										gradientTexture = cache->multiHighlightGradientTexture();
-									}
+                                switch (selectionType)
+                                {
+                                    case QStackedBarsController3D::SelectionItem:
+                                    {
+                                        if (colorStyleIsUniform)
+                                        {
+                                            // barColor = cache->singleHighlightColor();
+                                            barColor = itemSectionColors.at(itemIdx);
+                                        }
+                                        else
+                                        {
+                                            gradientTexture = cache->singleHighlightGradientTexture();
+                                        }
+                                        lightStrength = m_cachedTheme->highlightLightStrength();
+                                        shadowLightStrength = adjustedHighlightStrength;
+                                        // Insert position data into render item
+                                        // We have no ownership, don't delete the previous one
+                                        if (!m_cachedIsSlicingActivated
+                                            && m_selectedSeriesCache == cache) {
+                                            *selectedBar = &item;
+                                            (*selectedBar)->setPosition(QPoint(row, bar));
+                                            item.setTranslation(modelMatrix.column(3).toVector3D());
+                                            barSelectionFound = true;
+                                        }
+                                        if (m_selectionDirty && m_cachedIsSlicingActivated) {
+                                            QVector3D translation = modelMatrix.column(3).toVector3D();
+                                            if (m_cachedSelectionMode & QAbstractGraph3D::SelectionColumn
+                                                && m_visibleSeriesCount > 1) {
+                                                translation.setZ((m_columnDepth
+                                                    - ((row + seriesPos)
+                                                        * (m_cachedBarSpacing.height())))
+                                                    / m_scaleFactor);
+                                            }
+                                            item.setTranslation(translation);
+                                            item.setPosition(QPoint(row, bar));
+                                            if (rowMode)
+                                                cache->sliceArray()[bar].setItem(item);
+                                            else
+                                                cache->sliceArray()[row].setItem(item);
+                                        }
+                                        break;
+                                    }
+                                    case QStackedBarsController3D::SelectionRow: {
+                                        // Current bar is on the same row as the selected bar
+                                        if (colorStyleIsUniform)
+                                        {
+                                            // barColor = cache->multiHighlightColor();
+                                            barColor = itemSectionColors.at(itemIdx);
+                                        }
+                                        else
+                                        {
+                                            gradientTexture = cache->multiHighlightGradientTexture();
+                                        }
+                                        lightStrength = m_cachedTheme->highlightLightStrength();
+                                        shadowLightStrength = adjustedHighlightStrength;
+                                        if (m_cachedIsSlicingActivated) {
+                                            item.setTranslation(modelMatrix.column(3).toVector3D());
+                                            item.setPosition(QPoint(row, bar));
+                                            if (m_selectionDirty) {
+                                                if (!m_sliceTitleItem && m_axisCacheZ.labelItems().size() > row)
+                                                    m_sliceTitleItem = m_axisCacheZ.labelItems().at(row);
+                                                cache->sliceArray()[bar].setItem(item);
+                                            }
+                                        }
+                                        break;
+                                    }
+                                    case QStackedBarsController3D::SelectionColumn: {
+                                        // Current bar is on the same column as the selected bar
+                                        if (colorStyleIsUniform)
+                                        {
+                                            // barColor = cache->multiHighlightColor();
+                                            barColor = itemSectionColors.at(itemIdx);
+                                        }
+                                        else
+                                        {
+                                            gradientTexture = cache->multiHighlightGradientTexture();
+                                        }
 
-									lightStrength = m_cachedTheme->highlightLightStrength();
-									shadowLightStrength = adjustedHighlightStrength;
-									if (m_cachedIsSlicingActivated) {
-										QVector3D translation = modelMatrix.column(3).toVector3D();
-										if (m_visibleSeriesCount > 1) {
-											translation.setZ((m_columnDepth
-												- ((row + seriesPos)
-													* (m_cachedBarSpacing.height())))
-												/ m_scaleFactor);
-										}
-										item.setTranslation(translation);
-										item.setPosition(QPoint(row, bar));
-										if (m_selectionDirty) {
-											if (!m_sliceTitleItem && m_axisCacheX.labelItems().size() > bar)
-												m_sliceTitleItem = m_axisCacheX.labelItems().at(bar);
-											cache->sliceArray()[row].setItem(item);
-										}
-									}
-									break;
-								}
-								case QStackedBarsController3D::SelectionNone: {
-									// Current bar is not selected, nor on a row or column
-									if (colorStyleIsUniform)
-									{
-										// barColor = baseColor;
-										barColor = itemSectionColors.at(itemIdx);
-									}
-									else
-									{
-										gradientTexture = cache->baseGradientTexture();
-									}
-									break;
-								}
+                                        lightStrength = m_cachedTheme->highlightLightStrength();
+                                        shadowLightStrength = adjustedHighlightStrength;
+                                        if (m_cachedIsSlicingActivated) {
+                                            QVector3D translation = modelMatrix.column(3).toVector3D();
+                                            if (m_visibleSeriesCount > 1) {
+                                                translation.setZ((m_columnDepth
+                                                    - ((row + seriesPos)
+                                                        * (m_cachedBarSpacing.height())))
+                                                    / m_scaleFactor);
+                                            }
+                                            item.setTranslation(translation);
+                                            item.setPosition(QPoint(row, bar));
+                                            if (m_selectionDirty) {
+                                                if (!m_sliceTitleItem && m_axisCacheX.labelItems().size() > bar)
+                                                    m_sliceTitleItem = m_axisCacheX.labelItems().at(bar);
+                                                cache->sliceArray()[row].setItem(item);
+                                            }
+                                        }
+                                        break;
+                                    }
+                                    case QStackedBarsController3D::SelectionNone:
+                                    {
+                                        // Current bar is not selected, nor on a row or column
+                                        if (colorStyleIsUniform)
+                                        {
+                                            if (itemIdx < itemSectionColors.size())
+                                            {
+                                                barColor = itemSectionColors.at(itemIdx);
+                                            }
+                                            else
+                                            {
+                                                barColor = baseColor;
+                                                qWarning() << "itemIdx " << itemIdx << " is larger than itemSectionColors.size() = " << itemSectionColors.size() << "; using baseColor.";
+                                            }
+                                        }
+                                        else
+                                        {
+                                            gradientTexture = cache->baseGradientTexture();
+                                        }
+                                        // qDebug() << "Bar color: " << barColor;
+                                        break;
+                                    }
 								}
 							}
 
@@ -1831,8 +1850,8 @@ namespace QtStackedBar3DVis
 									barShader->setUniformValue(barShader->color(), barColor);
 								}
 								else if (colorStyle == QTheme3D::ColorStyleRangeGradient) {
-									barShader->setUniformValue(barShader->gradientHeight(),
-										qAbs(height) / m_gradientFraction);
+                                    barShader->setUniformValue(barShader->gradientHeight(),
+                                        (GLfloat) (qAbs(height) / m_gradientFraction));
 								}
 
 								if (((m_reflectionEnabled && reflection == 1.0f
@@ -1854,11 +1873,13 @@ namespace QtStackedBar3DVis
 								else {
 									// Set shadowless shader bindings
 									if (m_reflectionEnabled && reflection != 1.0f
-										&& m_cachedShadowQuality > QAbstractGraph3D::ShadowQualityNone) {
+                                        && m_cachedShadowQuality > QAbstractGraph3D::ShadowQualityNone)
+                                    {
 										barShader->setUniformValue(barShader->lightS(),
 											adjustedLightStrength);
 									}
-									else {
+                                    else
+                                    {
 										barShader->setUniformValue(barShader->lightS(), lightStrength);
 									}
 

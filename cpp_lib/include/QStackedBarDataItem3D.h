@@ -41,17 +41,17 @@ namespace QtStackedBar3DVis
 	{
 	public:
 		QStackedBarDataItem3D();
-		QStackedBarDataItem3D(const QList<float>& values);
-		QStackedBarDataItem3D(const QList<float>& values, const QList<float>& angles);
+        QStackedBarDataItem3D(const QList<qreal>& values);
+        QStackedBarDataItem3D(const QList<qreal>& values, const QList<qreal>& angles);
 		QStackedBarDataItem3D(const QStackedBarDataItem3D &other);
 		~QStackedBarDataItem3D();
 
 		QStackedBarDataItem3D &operator=(const QStackedBarDataItem3D &other);
 
-		inline void setValues(const QList<float>& values) { m_values = values; }
-		inline const QList<float> values() const { return m_values; }
-		inline void setRotations(const QList<float>& angles) { m_angles = angles; }
-		inline const QList<float> rotations() const { return m_angles; }
+        inline void setValues(const QList<qreal>& values) { m_values = values; }
+        inline const QList<qreal> values() const { return m_values; }
+        inline void setRotations(const QList<qreal>& angles) { m_angles = angles; }
+        inline const QList<qreal> rotations() const { return m_angles; }
 
 	protected:
 		void createExtraData();
@@ -59,8 +59,8 @@ namespace QtStackedBar3DVis
 		QStackedBarDataItem3DPrivate *d_ptr;
 
 	private:
-		QList<float> m_values;
-		QList<float> m_angles;
+        QList<qreal> m_values;
+        QList<qreal> m_angles;
 	};
 
 }

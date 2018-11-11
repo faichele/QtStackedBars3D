@@ -34,8 +34,8 @@ namespace QtStackedBar3DVis
 
 	QStackedBarRenderItem3D::QStackedBarRenderItem3D()
 		: QAbstractRenderItem3D(),
-		m_values(QList<float>()),
-		m_heights(QList<float>())
+        m_values(QList<qreal>()),
+        m_heights(QList<qreal>())
 	{
 	}
 

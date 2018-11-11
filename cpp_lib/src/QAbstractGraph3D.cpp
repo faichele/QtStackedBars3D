@@ -1031,9 +1031,9 @@ namespace QtStackedBar3DVis
 		d_ptr->m_visualController->mouseMoveEvent(event, event->pos());
 	}
 
-	#ifdef Q_WS_WIN
+    //#ifdef Q_WS_WIN
 	#if QT_CONFIG(wheelevent)
-        #endif
+    //#endif
 	/*!
 	* \internal
 	*/
@@ -1041,9 +1041,9 @@ namespace QtStackedBar3DVis
 	{
 		d_ptr->m_visualController->wheelEvent(event);
 	}
-	#ifdef Q_WS_WIN
+    //#ifdef Q_WS_WIN
 	#endif
-        #endif
+    //#endif
 
 	QAbstractGraph3DPrivate::QAbstractGraph3DPrivate(QAbstractGraph3D *q)
 		: QObject(0),

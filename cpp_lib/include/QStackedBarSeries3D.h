@@ -37,6 +37,8 @@ namespace QtStackedBar3DVis
 		const QList<QColor>& sectionColors();
 		void setSectionColors(const QList<QColor>& sectionColors);
 
+        void setSectionColor(unsigned int index, unsigned int r, unsigned int g, unsigned int b, unsigned int a);
+
 	Q_SIGNALS:
 		void dataProxyChanged(QStackedBarDataProxy3D *proxy);
 		void selectedBarChanged(const QPoint &position);

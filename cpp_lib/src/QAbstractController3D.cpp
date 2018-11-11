@@ -595,17 +595,17 @@ namespace QtStackedBar3DVis
 			m_activeInputHandler->mouseMoveEvent(event, mousePos);
 	}
 
-	#ifdef Q_WS_WIN
+    //#ifdef Q_WS_WIN
 	#if QT_CONFIG(wheelevent)
-        #endif
+    //    #endif
 	void  QAbstractController3D::wheelEvent(QWheelEvent *event)
 	{
 		if (m_activeInputHandler)
 			m_activeInputHandler->wheelEvent(event);
 	}
-	#ifdef Q_WS_WIN
+    //#ifdef Q_WS_WIN
 	#endif
-    #endif
+    //#endif
 
 	void  QAbstractController3D::handleThemeColorStyleChanged(QTheme3D::ColorStyle style)
 	{

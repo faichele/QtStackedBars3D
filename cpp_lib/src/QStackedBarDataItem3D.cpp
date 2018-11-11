@@ -55,7 +55,7 @@ namespace QtStackedBar3DVis
 	/*!
 	* Constructs a bar data item with the value \a value.
 	*/
-	QStackedBarDataItem3D::QStackedBarDataItem3D(const QList<float>& values)
+    QStackedBarDataItem3D::QStackedBarDataItem3D(const QList<qreal>& values)
 		: d_ptr(0),
 		m_values(values)
 	{
@@ -64,7 +64,7 @@ namespace QtStackedBar3DVis
 	/*!
 	* Constructs a bar data item with the value \a value and angle \a angle.
 	*/
-	QStackedBarDataItem3D::QStackedBarDataItem3D(const QList<float>& values, const QList<float>& angles)
+    QStackedBarDataItem3D::QStackedBarDataItem3D(const QList<qreal>& values, const QList<qreal>& angles)
 		: d_ptr(0),
 		m_values(values),
 		m_angles(angles)

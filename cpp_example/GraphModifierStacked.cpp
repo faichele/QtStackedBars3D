@@ -86,6 +86,7 @@ GraphModifierStacked::GraphModifierStacked(QStackedBars3D *bargraph)
 	m_primarySeries->setItemLabelFormat(QStringLiteral("Differenz Vektor-Norm - @colLabel @rowLabel: @valueLabel"));
 	m_primarySeries->setMesh(QAbstractSeries3D::MeshBevelBar);
 	m_primarySeries->setMeshSmooth(false);
+    m_primarySeries->setVisible(true);
 
 	m_secondarySeries->setItemLabelFormat(QStringLiteral("Winkel zwischen Vektoren - @colLabel @rowLabel: @valueLabel"));
 	m_secondarySeries->setMesh(QAbstractSeries3D::MeshBevelBar);
@@ -244,22 +245,33 @@ void GraphModifierStacked::resetCycleDeviationData()
 	QStackedBarDataRow3D *dataRow2;
 
 	dataSet->reserve(m_cycleCount);
+
+    QList<qreal> placeholder_items;
+    for (int k = 0; k < 6; k++)
+        placeholder_items.append(0.0f);
+
 	for (int cycle_1 = 0; cycle_1 < m_cycleCount; cycle_1++) {
 		// Create a data row
-		dataRow = new QStackedBarDataRow3D(m_cycleCount);
-		dataRow2 = new QStackedBarDataRow3D(m_cycleCount);
+        dataRow = new QStackedBarDataRow3D();
+        dataRow2 = new QStackedBarDataRow3D();
+
+        for (int k = 0; k < m_cycleCount; k++)
+        {
+            dataRow->append(QStackedBarDataItem3D(placeholder_items));
+            dataRow2->append(QStackedBarDataItem3D(placeholder_items));
+        }
 		for (int cycle_2 = 0; cycle_2 < m_cycleCount; cycle_2++) {
 			// Add data to the row
 			if (cycle_1 == cycle_2)
 			{
-				QList<float> values;
+                QList<qreal> values;
 				values << 0.0f << 0.0f << 0.0f;
 				(*dataRow)[cycle_2].setValues(values);
 				(*dataRow2)[cycle_2].setValues(values);
 			}
 			else
 			{
-				QList<float> rnd_values;
+                QList<qreal> rnd_values;
 				rnd_values << std::fabs(rnd_uniform_dist(rnd_generator)) << std::fabs(rnd_uniform_dist(rnd_generator)) << std::fabs(rnd_uniform_dist(rnd_generator)) << std::fabs(rnd_uniform_dist(rnd_generator)) << std::fabs(rnd_uniform_dist(rnd_generator)) << std::fabs(rnd_uniform_dist(rnd_generator));
 				//rnd_values << (1.0f * cycle_2) << (2.0f * cycle_2) << (3.0f * cycle_2);
 				//qDebug() << "Values for bar (" << cycle_1 << ", " << cycle_2 << "): " << rnd_values;

@@ -57,17 +57,17 @@ namespace QtStackedBar3DVis
 		inline const QPoint &position() const { return m_position; }
 
 		// Actual cached data value of the bar (needed to trigger label reformats)
-		inline void setValues(const QList<float>& values) { m_values = values; }
-		inline QList<float> values() const { return m_values; }
+        inline void setValues(const QList<qreal>& values) { m_values = values; }
+        inline QList<qreal> values() const { return m_values; }
 
 		// Normalized bar height
-		inline void setHeights(const QList<GLfloat>& heights) { m_heights = heights; }
-		inline QList<GLfloat> heights() const { return m_heights; }
+        inline void setHeights(const QList<qreal>& heights) { m_heights = heights; }
+        inline QList<qreal> heights() const { return m_heights; }
 
 	protected:
-		QList<float> m_values;
+        QList<qreal> m_values;
 		QPoint m_position; // x = row, y = column
-		QList<GLfloat> m_heights;
+        QList<qreal> m_heights;
 
 		friend class QBarDataItem3D;
 	};
