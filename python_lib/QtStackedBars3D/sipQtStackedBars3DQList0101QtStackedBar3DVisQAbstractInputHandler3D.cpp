@@ -29,6 +29,8 @@
 
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -49,7 +51,7 @@
 #include <QAbstractInputHandler3D.h>
 #line 32 "sip/QtStackedBars3D/qabstractinputhandler3d.sip"
 #include <QAbstractInputHandler3D.h>
-#line 53 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQAbstractInputHandler3D.cpp"
+#line 55 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQAbstractInputHandler3D.cpp"
 
 
 extern "C" {static void assign_QList_0101QtStackedBar3DVis_QAbstractInputHandler3D(void *, SIP_SSIZE_T, void *);}
@@ -157,7 +159,7 @@ static int convertTo_QList_0101QtStackedBar3DVis_QAbstractInputHandler3D(PyObjec
     *sipCppPtr = ql;
  
     return sipGetState(sipTransferObj);
-#line 161 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQAbstractInputHandler3D.cpp"
+#line 163 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQAbstractInputHandler3D.cpp"
 }
 
 
@@ -195,7 +197,7 @@ static PyObject *convertFrom_QList_0101QtStackedBar3DVis_QAbstractInputHandler3D
     sipEnableGC(gc_enabled);
 
     return l;
-#line 199 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQAbstractInputHandler3D.cpp"
+#line 201 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQAbstractInputHandler3D.cpp"
 }
 
 
@@ -205,7 +207,7 @@ sipMappedTypeDef sipTypeDef_QtStackedBars3D_QList_0101QtStackedBar3DVis_QAbstrac
         0,
         0,
         SIP_TYPE_MAPPED,
-        sipNameNr_322,     /* QList<QtStackedBar3DVis::QAbstractInputHandler3D*> */
+        sipNameNr_380,     /* QList<QtStackedBar3DVis::QAbstractInputHandler3D*> */
         {0},
         0
     },

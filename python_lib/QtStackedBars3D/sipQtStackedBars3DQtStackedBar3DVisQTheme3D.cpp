@@ -25,6 +25,8 @@
 
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -39,71 +41,71 @@
 #include <QTheme3D.h>
 #line 32 "sip/QtStackedBars3D/qtheme3d.sip"
 #include <QTheme3D.h>
-#line 43 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 45 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 
 #line 28 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qobject.sip"
 #include <qobject.h>
-#line 47 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 49 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qfont.sip"
 #include <qfont.h>
-#line 50 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 52 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 165 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qbrush.sip"
 #include <qbrush.h>
-#line 53 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 55 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 38 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qpycore_qlist.sip"
 #include <qlist.h>
-#line 56 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 58 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qcolor.sip"
 #include <qcolor.h>
-#line 59 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 61 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 38 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qpycore_qlist.sip"
 #include <qlist.h>
-#line 62 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 64 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qmetaobject.sip"
 #include <qmetaobject.h>
-#line 65 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 67 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qcoreevent.sip"
 #include <qcoreevent.h>
-#line 68 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 70 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 247 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qcoreevent.sip"
 #include <qcoreevent.h>
-#line 71 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 73 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 235 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qcoreevent.sip"
 #include <qcoreevent.h>
-#line 74 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 76 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 27 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qstring.sip"
 #include <qstring.h>
-#line 77 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 79 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qvariant.sip"
 #include <qvariant.h>
-#line 80 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 82 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 38 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qpycore_qlist.sip"
 #include <qlist.h>
-#line 83 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 85 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 30 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qbytearray.sip"
 #include <qbytearray.h>
-#line 86 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 88 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 149 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qpycore_qlist.sip"
 #include <qlist.h>
-#line 89 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 91 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qnamespace.sip"
 #include <qnamespace.h>
-#line 92 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 94 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qthread.sip"
 #include <qthread.h>
-#line 95 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 97 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qnamespace.sip"
 #include <qnamespace.h>
-#line 98 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 100 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qregexp.sip"
 #include <qregexp.h>
-#line 101 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 103 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qregularexpression.sip"
 #include <qregularexpression.h>
-#line 104 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 106 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qobjectdefs.sip"
 #include <qobjectdefs.h>
-#line 107 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
+#line 109 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp"
 
 
 class sipQtStackedBar3DVis_QTheme3D : public  ::QtStackedBar3DVis::QTheme3D
@@ -1594,7 +1596,7 @@ static void *init_type_QtStackedBar3DVis_QTheme3D(sipSimpleWrapper *sipSelf, PyO
 
 
 /* Define this type's super-types. */
-static sipEncodedTypeDef supers_QtStackedBar3DVis_QTheme3D[] = {{4, 0, 1}};
+static sipEncodedTypeDef supers_QtStackedBar3DVis_QTheme3D[] = {{5, 0, 1}};
 
 
 static PyMethodDef methods_QtStackedBar3DVis_QTheme3D[] = {
@@ -1645,18 +1647,18 @@ static PyMethodDef methods_QtStackedBar3DVis_QTheme3D[] = {
 };
 
 static sipEnumMemberDef enummembers_QtStackedBar3DVis_QTheme3D[] = {
-    {sipName_ColorStyleObjectGradient, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ColorStyleObjectGradient), 49},
-    {sipName_ColorStyleRangeGradient, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ColorStyleRangeGradient), 49},
-    {sipName_ColorStyleUniform, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ColorStyleUniform), 49},
-    {sipName_ThemeArmyBlue, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeArmyBlue), 50},
-    {sipName_ThemeDigia, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeDigia), 50},
-    {sipName_ThemeEbony, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeEbony), 50},
-    {sipName_ThemeIsabelle, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeIsabelle), 50},
-    {sipName_ThemePrimaryColors, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemePrimaryColors), 50},
-    {sipName_ThemeQt, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeQt), 50},
-    {sipName_ThemeRetro, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeRetro), 50},
-    {sipName_ThemeStoneMoss, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeStoneMoss), 50},
-    {sipName_ThemeUserDefined, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeUserDefined), 50},
+    {sipName_ColorStyleObjectGradient, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ColorStyleObjectGradient), 56},
+    {sipName_ColorStyleRangeGradient, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ColorStyleRangeGradient), 56},
+    {sipName_ColorStyleUniform, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ColorStyleUniform), 56},
+    {sipName_ThemeArmyBlue, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeArmyBlue), 57},
+    {sipName_ThemeDigia, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeDigia), 57},
+    {sipName_ThemeEbony, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeEbony), 57},
+    {sipName_ThemeIsabelle, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeIsabelle), 57},
+    {sipName_ThemePrimaryColors, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemePrimaryColors), 57},
+    {sipName_ThemeQt, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeQt), 57},
+    {sipName_ThemeRetro, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeRetro), 57},
+    {sipName_ThemeStoneMoss, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeStoneMoss), 57},
+    {sipName_ThemeUserDefined, static_cast<int>( ::QtStackedBar3DVis::QTheme3D::ThemeUserDefined), 57},
 };
 
 PyDoc_STRVAR(doc_QtStackedBar3DVis_QTheme3D, "\1QtStackedBar3DVis.QTheme3D(parent: QObject = None)\n"
@@ -1711,7 +1713,7 @@ sipClassTypeDef sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QTheme3D = {
     },
     {
         sipNameNr_QTheme3D,
-        {11, 255, 0},
+        {14, 255, 0},
         44, methods_QtStackedBar3DVis_QTheme3D,
         12, enummembers_QtStackedBar3DVis_QTheme3D,
         0, 0,

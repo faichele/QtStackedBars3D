@@ -182,7 +182,7 @@ sipMappedTypeDef sipTypeDef_QtStackedBars3D_QList_0100QLinearGradient = {
         0,
         0,
         SIP_TYPE_MAPPED,
-        sipNameNr_3772,     /* QList<QLinearGradient> */
+        sipNameNr_4083,     /* QList<QLinearGradient> */
         {0},
         0
     },

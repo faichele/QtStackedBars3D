@@ -25,6 +25,8 @@
 
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -53,6 +55,12 @@
 #include <QBarDataItem3D.h>
 #line 26 "sip/QtStackedBars3D/qbardataproxy3d.sip"
 #include <QBarDataProxy3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbarseries3d.sip"
+#include <QStackedBarSeries3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbardataitem3d.sip"
+#include <QStackedBarDataItem3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbardataproxy3d.sip"
+#include <QStackedBarDataProxy3D.h>
 #line 26 "sip/QtStackedBars3D/qcategoryaxis3d.sip"
 #include <QCategoryAxis3D.h>
 #line 26 "sip/QtStackedBars3D/qcustomitem3d.sip"
@@ -73,11 +81,11 @@
 #include <QValueAxis3D.h>
 #line 26 "sip/QtStackedBars3D/qaxisvalueformatter3d.sip"
 #include <QAxisValueFormatter3D.h>
-#line 77 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVis.cpp"
+#line 85 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVis.cpp"
 
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qsurfaceformat.sip"
 #include <qsurfaceformat.h>
-#line 81 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVis.cpp"
+#line 89 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVis.cpp"
 
 
 PyDoc_STRVAR(doc_QtStackedBar3DVis_qDefaultSurfaceFormat, "qDefaultSurfaceFormat(antialias: bool = True) -> QSurfaceFormat");

@@ -25,6 +25,8 @@
 
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -53,6 +55,12 @@
 #include <QBarDataItem3D.h>
 #line 26 "sip/QtStackedBars3D/qbardataproxy3d.sip"
 #include <QBarDataProxy3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbarseries3d.sip"
+#include <QStackedBarSeries3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbardataitem3d.sip"
+#include <QStackedBarDataItem3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbardataproxy3d.sip"
+#include <QStackedBarDataProxy3D.h>
 #line 26 "sip/QtStackedBars3D/qcategoryaxis3d.sip"
 #include <QCategoryAxis3D.h>
 #line 26 "sip/QtStackedBars3D/qcustomitem3d.sip"
@@ -63,10 +71,12 @@
 #include <QSurfaceSeries3D.h>
 #line 32 "sip/QtStackedBars3D/qsurfaceseries3d.sip"
 #include <QSurfaceSeries3D.h>
-#line 67 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
+#line 75 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
 
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -95,6 +105,12 @@
 #include <QBarDataItem3D.h>
 #line 26 "sip/QtStackedBars3D/qbardataproxy3d.sip"
 #include <QBarDataProxy3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbarseries3d.sip"
+#include <QStackedBarSeries3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbardataitem3d.sip"
+#include <QStackedBarDataItem3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbardataproxy3d.sip"
+#include <QStackedBarDataProxy3D.h>
 #line 26 "sip/QtStackedBars3D/qcategoryaxis3d.sip"
 #include <QCategoryAxis3D.h>
 #line 26 "sip/QtStackedBars3D/qcustomitem3d.sip"
@@ -105,7 +121,7 @@
 #include <QSurfaceSeries3D.h>
 #line 32 "sip/QtStackedBars3D/qsurfaceseries3d.sip"
 #include <QSurfaceSeries3D.h>
-#line 109 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
+#line 125 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
 
 
 extern "C" {static long slot_QtStackedBar3DVis_QSurfaceSeries3D_DrawFlags___hash__(PyObject *);}
@@ -123,7 +139,7 @@ static long slot_QtStackedBar3DVis_QSurfaceSeries3D_DrawFlags___hash__(PyObject 
 
 #line 116 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qglobal.sip"
         sipRes = sipCpp->operator QtStackedBar3DVis::QSurfaceSeries3D::DrawFlags::Int();
-#line 127 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
+#line 143 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
 
             return sipRes;
         }
@@ -148,7 +164,7 @@ static int slot_QtStackedBar3DVis_QSurfaceSeries3D_DrawFlags___bool__(PyObject *
 
 #line 111 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qglobal.sip"
         sipRes = (sipCpp->operator QtStackedBar3DVis::QSurfaceSeries3D::DrawFlags::Int() != 0);
-#line 152 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
+#line 168 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
 
             return sipRes;
         }
@@ -178,7 +194,7 @@ static PyObject *slot_QtStackedBar3DVis_QSurfaceSeries3D_DrawFlags___ne__(PyObje
 
 #line 106 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qglobal.sip"
         sipRes = (sipCpp->operator QtStackedBar3DVis::QSurfaceSeries3D::DrawFlags::Int() != a0->operator QtStackedBar3DVis::QSurfaceSeries3D::DrawFlags::Int());
-#line 182 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
+#line 198 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
             sipReleaseType(const_cast< ::QtStackedBar3DVis::QSurfaceSeries3D::DrawFlags *>(a0),sipType_QtStackedBar3DVis_QSurfaceSeries3D_DrawFlags,a0State);
 
             return PyBool_FromLong(sipRes);
@@ -214,7 +230,7 @@ static PyObject *slot_QtStackedBar3DVis_QSurfaceSeries3D_DrawFlags___eq__(PyObje
 
 #line 101 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qglobal.sip"
         sipRes = (sipCpp->operator QtStackedBar3DVis::QSurfaceSeries3D::DrawFlags::Int() == a0->operator QtStackedBar3DVis::QSurfaceSeries3D::DrawFlags::Int());
-#line 218 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
+#line 234 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
             sipReleaseType(const_cast< ::QtStackedBar3DVis::QSurfaceSeries3D::DrawFlags *>(a0),sipType_QtStackedBar3DVis_QSurfaceSeries3D_DrawFlags,a0State);
 
             return PyBool_FromLong(sipRes);
@@ -253,7 +269,7 @@ static PyObject *slot_QtStackedBar3DVis_QSurfaceSeries3D_DrawFlags___ixor__(PyOb
         {
 #line 95 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qglobal.sip"
         *sipCpp = QtStackedBar3DVis::QSurfaceSeries3D::DrawFlags(*sipCpp ^ a0);
-#line 257 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
+#line 273 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
 
             Py_INCREF(sipSelf);
             return sipSelf;
@@ -325,7 +341,7 @@ static PyObject *slot_QtStackedBar3DVis_QSurfaceSeries3D_DrawFlags___ior__(PyObj
         {
 #line 89 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qglobal.sip"
         *sipCpp = QtStackedBar3DVis::QSurfaceSeries3D::DrawFlags(*sipCpp | a0);
-#line 329 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
+#line 345 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
 
             Py_INCREF(sipSelf);
             return sipSelf;
@@ -593,7 +609,7 @@ if (PyObject_TypeCheck(sipPy, sipTypeAsPyTypeObject(sipType_QtStackedBar3DVis_QS
 *sipCppPtr = reinterpret_cast<QtStackedBar3DVis::QSurfaceSeries3D::DrawFlags *>(sipConvertToType(sipPy, sipType_QtStackedBar3DVis_QSurfaceSeries3D_DrawFlags, sipTransferObj, SIP_NO_CONVERTORS, 0, sipIsErr));
 
 return 0;
-#line 597 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
+#line 613 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp"
 }
 
 
@@ -639,7 +655,7 @@ sipClassTypeDef sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QSurfaceSeries3D_Dr
     },
     {
         sipNameNr_DrawFlags,
-        {45, 255, 0},
+        {52, 255, 0},
         0, 0,
         0, 0,
         0, 0,

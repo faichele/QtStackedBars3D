@@ -41,6 +41,7 @@ sip.path = /trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip
 sip.files = \
     ../sip/QtStackedBars3D/qabstractinputhandler3d.sip \
     ../sip/QtStackedBars3D/qsurfacedataproxy3d.sip \
+    ../sip/QtStackedBars3D/qstackedbars3d.sip \
     ../sip/QtStackedBars3D/qbardataitem3d.sip \
     ../sip/QtStackedBars3D/qutils3d.sip \
     ../sip/QtStackedBars3D/qbars3d.sip \
@@ -56,12 +57,14 @@ sip.files = \
     ../sip/QtStackedBars3D/qstackedbar3dglobal.sip \
     ../sip/QtStackedBars3D/qlight3d.sip \
     ../sip/QtStackedBars3D/qobject3d.sip \
+    ../sip/QtStackedBars3D/qstackedbardataproxy3d.sip \
     ../sip/QtStackedBars3D/qsurfaceseries3d.sip \
     ../sip/QtStackedBars3D/qscatterseries3d.sip \
     ../sip/QtStackedBars3D/qinputhandler3d.sip \
     ../sip/QtStackedBars3D/qabstractdataproxy3d.sip \
     ../sip/QtStackedBars3D/qcustomlabel3d.sip \
     ../sip/QtStackedBars3D/qcategoryaxis3d.sip \
+    ../sip/QtStackedBars3D/qstackedbardataitem3d.sip \
     ../sip/QtStackedBars3D/qtouchinputhandler3d.sip \
     ../sip/QtStackedBars3D/qsurface3d.sip \
     ../sip/QtStackedBars3D/QtStackedBars3Dmod.sip \
@@ -70,7 +73,8 @@ sip.files = \
     ../sip/QtStackedBars3D/qtheme3d.sip \
     ../sip/QtStackedBars3D/qabstractseries3d.sip \
     ../sip/QtStackedBars3D/qbardataproxy3d.sip \
-    ../sip/QtStackedBars3D/qscatterdataitem3d.sip
+    ../sip/QtStackedBars3D/qscatterdataitem3d.sip \
+    ../sip/QtStackedBars3D/qstackedbarseries3d.sip
 INSTALLS += sip
 
 QMAKE_CXXFLAGS += -fno-exceptions
@@ -96,10 +100,13 @@ SOURCES = \
     sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp \
     sipQtStackedBars3DQtStackedBar3DVisQAbstractDataProxy3D.cpp \
     sipQtStackedBars3DQtStackedBar3DVisQBarSeries3D.cpp \
+    sipQtStackedBars3DQtStackedBar3DVisQStackedBarSeries3D.cpp \
     sipQtStackedBars3DQtStackedBar3DVisQCustomLabel3D.cpp \
+    sipQtStackedBars3DQVector0100QtStackedBar3DVisQStackedBarDataItem3D.cpp \
     sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DSelectionFlags.cpp \
     sipQtStackedBars3DQtStackedBar3DVisQAxisValueFormatter3D.cpp \
     sipQtStackedBars3DQList0101QtStackedBar3DVisQBarSeries3D.cpp \
+    sipQtStackedBars3DQList0601QVector0100QtStackedBar3DVisQStackedBarDataItem3D.cpp \
     sipQtStackedBars3DQtStackedBar3DVisQInputHandler3D.cpp \
     sipQtStackedBars3DQtStackedBar3DVisQTouchInputHandler3D.cpp \
     sipQtStackedBars3DQtStackedBar3DVisQAbstractInputHandler3D.cpp \
@@ -107,6 +114,7 @@ SOURCES = \
     sipQtStackedBars3DQtStackedBar3DVisQLight3D.cpp \
     sipQtStackedBars3DQList0101QtStackedBar3DVisQTheme3D.cpp \
     sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp \
+    sipQtStackedBars3DQtStackedBar3DVisQStackedBars3D.cpp \
     sipQtStackedBars3DQList0101QtStackedBar3DVisQCustomItem3D.cpp \
     sipQtStackedBars3DQList0100QColor.cpp \
     sipQtStackedBars3DQVector0100QtStackedBar3DVisQSurfaceDataItem3D.cpp \
@@ -119,13 +127,16 @@ SOURCES = \
     sipQtStackedBars3DQtStackedBar3DVisQBarDataProxy3D.cpp \
     sipQtStackedBars3DQtStackedBar3DVisQSurfaceDataItem3D.cpp \
     sipQtStackedBars3DQList0601QVector0100QtStackedBar3DVisQBarDataItem3D.cpp \
+    sipQtStackedBars3DQList0101QtStackedBar3DVisQStackedBarSeries3D.cpp \
     sipQtStackedBars3DQtStackedBar3DVis.cpp \
     sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp \
     sipQtStackedBars3DQList0601QVector0100QtStackedBar3DVisQSurfaceDataItem3D.cpp \
+    sipQtStackedBars3DQtStackedBar3DVisQStackedBarDataItem3D.cpp \
     sipQtStackedBars3DQtStackedBar3DVisQSurfaceDataProxy3D.cpp \
     sipQtStackedBars3DQList0101QtStackedBar3DVisQAbstractAxis3D.cpp \
     sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3D.cpp \
     sipQtStackedBars3DQtStackedBar3DVisQTheme3D.cpp \
     sipQtStackedBars3DQtStackedBar3DVisQSurfaceSeries3DDrawFlags.cpp \
     sipQtStackedBars3DQList0100QLinearGradient.cpp \
-    sipQtStackedBars3DQtStackedBar3DVisQBars3D.cpp
+    sipQtStackedBars3DQtStackedBar3DVisQBars3D.cpp \
+    sipQtStackedBars3DQtStackedBar3DVisQStackedBarDataProxy3D.cpp

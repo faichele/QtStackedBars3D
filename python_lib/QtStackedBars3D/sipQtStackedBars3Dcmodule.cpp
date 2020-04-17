@@ -28,6 +28,8 @@
 #line 29 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -46,63 +48,65 @@
 #include <QAbstractGraph3D.h>
 #line 32 "sip/QtStackedBars3D/qabstractgraph3d.sip"
 #include <QAbstractGraph3D.h>
-#line 50 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 52 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 293 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qevent.sip"
 #include <qevent.h>
-#line 53 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 55 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 714 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qevent.sip"
 #include <qevent.h>
-#line 56 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 58 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 253 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qevent.sip"
 #include <qevent.h>
-#line 59 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 61 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 205 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qevent.sip"
 #include <qevent.h>
-#line 62 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 64 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 351 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qevent.sip"
 #include <qevent.h>
-#line 65 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 67 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 459 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qevent.sip"
 #include <qevent.h>
-#line 68 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 70 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 448 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qevent.sip"
 #include <qevent.h>
-#line 71 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 73 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 372 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qevent.sip"
 #include <qevent.h>
-#line 74 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 76 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 400 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qevent.sip"
 #include <qevent.h>
-#line 77 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 79 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 413 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qevent.sip"
 #include <qevent.h>
-#line 80 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 82 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 783 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qevent.sip"
 #include <qevent.h>
-#line 83 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 85 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qsurfaceformat.sip"
 #include <qsurfaceformat.h>
-#line 86 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 88 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qsurface.sip"
 #include <qsurface.h>
-#line 89 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 91 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qsize.sip"
 #include <qsize.h>
-#line 92 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 94 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qcoreevent.sip"
 #include <qcoreevent.h>
-#line 95 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 97 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 235 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qcoreevent.sip"
 #include <qcoreevent.h>
-#line 98 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 100 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 247 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qcoreevent.sip"
 #include <qcoreevent.h>
-#line 101 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 103 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qmetaobject.sip"
 #include <qmetaobject.h>
-#line 104 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 106 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -113,12 +117,14 @@
 #include <QObject3D.h>
 #line 32 "sip/QtStackedBars3D/qobject3d.sip"
 #include <QObject3D.h>
-#line 117 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 121 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qpoint.sip"
 #include <qpoint.h>
-#line 120 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 124 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -147,6 +153,12 @@
 #include <QBarDataItem3D.h>
 #line 26 "sip/QtStackedBars3D/qbardataproxy3d.sip"
 #include <QBarDataProxy3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbarseries3d.sip"
+#include <QStackedBarSeries3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbardataitem3d.sip"
+#include <QStackedBarDataItem3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbardataproxy3d.sip"
+#include <QStackedBarDataProxy3D.h>
 #line 26 "sip/QtStackedBars3D/qcategoryaxis3d.sip"
 #include <QCategoryAxis3D.h>
 #line 26 "sip/QtStackedBars3D/qcustomitem3d.sip"
@@ -169,12 +181,14 @@
 #include <QAxisValueFormatter3D.h>
 #line 32 "sip/QtStackedBars3D/qaxisvalueformatter3d.sip"
 #include <QAxisValueFormatter3D.h>
-#line 173 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 185 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 27 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qstring.sip"
 #include <qstring.h>
-#line 176 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 188 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -193,9 +207,11 @@
 #include <QAbstractGraph3D.h>
 #line 32 "sip/QtStackedBars3D/qabstractgraph3d.sip"
 #include <QAbstractGraph3D.h>
-#line 197 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 211 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -214,9 +230,11 @@
 #include <QAbstractGraph3D.h>
 #line 32 "sip/QtStackedBars3D/qabstractgraph3d.sip"
 #include <QAbstractGraph3D.h>
-#line 218 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 234 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -245,9 +263,11 @@
 #include <QBarDataItem3D.h>
 #line 32 "sip/QtStackedBars3D/qbardataitem3d.sip"
 #include <QBarDataItem3D.h>
-#line 249 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 267 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -276,6 +296,51 @@
 #include <QBarDataItem3D.h>
 #line 26 "sip/QtStackedBars3D/qbardataproxy3d.sip"
 #include <QBarDataProxy3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbarseries3d.sip"
+#include <QStackedBarSeries3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbardataitem3d.sip"
+#include <QStackedBarDataItem3D.h>
+#line 32 "sip/QtStackedBars3D/qstackedbardataitem3d.sip"
+#include <QStackedBarDataItem3D.h>
+#line 306 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 26 "sip/QtStackedBars3D/qbars3d.sip"
+#include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
+#line 26 "sip/QtStackedBars3D/qcamera3d.sip"
+#include <QCamera3D.h>
+#line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
+#include <QInputHandler3D.h>
+#line 26 "sip/QtStackedBars3D/qlight3d.sip"
+#include <QLight3D.h>
+#line 26 "sip/QtStackedBars3D/qobject3d.sip"
+#include <QObject3D.h>
+#line 26 "sip/QtStackedBars3D/qscene3d.sip"
+#include <QScene3D.h>
+#line 26 "sip/QtStackedBars3D/qtheme3d.sip"
+#include <QTheme3D.h>
+#line 26 "sip/QtStackedBars3D/qabstractaxis3d.sip"
+#include <QAbstractAxis3D.h>
+#line 26 "sip/QtStackedBars3D/qabstractgraph3d.sip"
+#include <QAbstractGraph3D.h>
+#line 26 "sip/QtStackedBars3D/qabstractinputhandler3d.sip"
+#include <QAbstractInputHandler3D.h>
+#line 26 "sip/QtStackedBars3D/qabstractseries3d.sip"
+#include <QAbstractSeries3D.h>
+#line 26 "sip/QtStackedBars3D/qabstractdataproxy3d.sip"
+#include <QAbstractDataProxy3D.h>
+#line 26 "sip/QtStackedBars3D/qbarseries3d.sip"
+#include <QBarSeries3D.h>
+#line 26 "sip/QtStackedBars3D/qbardataitem3d.sip"
+#include <QBarDataItem3D.h>
+#line 26 "sip/QtStackedBars3D/qbardataproxy3d.sip"
+#include <QBarDataProxy3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbarseries3d.sip"
+#include <QStackedBarSeries3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbardataitem3d.sip"
+#include <QStackedBarDataItem3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbardataproxy3d.sip"
+#include <QStackedBarDataProxy3D.h>
 #line 26 "sip/QtStackedBars3D/qcategoryaxis3d.sip"
 #include <QCategoryAxis3D.h>
 #line 26 "sip/QtStackedBars3D/qcustomitem3d.sip"
@@ -286,9 +351,11 @@
 #include <QSurfaceSeries3D.h>
 #line 32 "sip/QtStackedBars3D/qsurfaceseries3d.sip"
 #include <QSurfaceSeries3D.h>
-#line 290 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 355 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -317,6 +384,12 @@
 #include <QBarDataItem3D.h>
 #line 26 "sip/QtStackedBars3D/qbardataproxy3d.sip"
 #include <QBarDataProxy3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbarseries3d.sip"
+#include <QStackedBarSeries3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbardataitem3d.sip"
+#include <QStackedBarDataItem3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbardataproxy3d.sip"
+#include <QStackedBarDataProxy3D.h>
 #line 26 "sip/QtStackedBars3D/qcategoryaxis3d.sip"
 #include <QCategoryAxis3D.h>
 #line 26 "sip/QtStackedBars3D/qcustomitem3d.sip"
@@ -329,10 +402,11 @@
 #include <QSurfaceDataItem3D.h>
 #line 32 "sip/QtStackedBars3D/qsurfacedataitem3d.sip"
 #include <QSurfaceDataItem3D.h>
-#line 333 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 406 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 
 /* Define the strings used by this module. */
 const char sipStrings_QtStackedBars3D[] = {
+    'Q', 'L', 'i', 's', 't', '<', 'Q', 'V', 'e', 'c', 't', 'o', 'r', '<', 'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', 'D', 'a', 't', 'a', 'I', 't', 'e', 'm', '3', 'D', '>', '*', '>', 0,
     'Q', 'L', 'i', 's', 't', '<', 'Q', 'V', 'e', 'c', 't', 'o', 'r', '<', 'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'S', 'u', 'r', 'f', 'a', 'c', 'e', 'D', 'a', 't', 'a', 'I', 't', 'e', 'm', '3', 'D', '>', '*', '>', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'A', 'b', 's', 't', 'r', 'a', 'c', 't', 'G', 'r', 'a', 'p', 'h', '3', 'D', ':', ':', 'O', 'p', 't', 'i', 'm', 'i', 'z', 'a', 't', 'i', 'o', 'n', 'H', 'i', 'n', 't', 's', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'A', 'b', 's', 't', 'r', 'a', 'c', 't', 'I', 'n', 'p', 'u', 't', 'H', 'a', 'n', 'd', 'l', 'e', 'r', '3', 'D', ':', ':', 'I', 'n', 'p', 'u', 't', 'V', 'i', 'e', 'w', 0,
@@ -343,9 +417,11 @@ const char sipStrings_QtStackedBars3D[] = {
     'Q', 'L', 'i', 's', 't', '<', 'Q', 'V', 'e', 'c', 't', 'o', 'r', '<', 'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'B', 'a', 'r', 'D', 'a', 't', 'a', 'I', 't', 'e', 'm', '3', 'D', '>', '*', '>', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'A', 'b', 's', 't', 'r', 'a', 'c', 't', 'G', 'r', 'a', 'p', 'h', '3', 'D', ':', ':', 'S', 'h', 'a', 'd', 'o', 'w', 'Q', 'u', 'a', 'l', 'i', 't', 'y', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'A', 'b', 's', 't', 'r', 'a', 'c', 't', 'G', 'r', 'a', 'p', 'h', '3', 'D', ':', ':', 'S', 'e', 'l', 'e', 'c', 't', 'i', 'o', 'n', 'F', 'l', 'a', 'g', 0,
+    'Q', 'V', 'e', 'c', 't', 'o', 'r', '<', 'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', 'D', 'a', 't', 'a', 'I', 't', 'e', 'm', '3', 'D', '>', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'A', 'b', 's', 't', 'r', 'a', 'c', 't', 'D', 'a', 't', 'a', 'P', 'r', 'o', 'x', 'y', '3', 'D', ':', ':', 'D', 'a', 't', 'a', 'T', 'y', 'p', 'e', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'A', 'b', 's', 't', 'r', 'a', 'c', 't', 'S', 'e', 'r', 'i', 'e', 's', '3', 'D', ':', ':', 'S', 'e', 'r', 'i', 'e', 's', 'T', 'y', 'p', 'e', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'A', 'b', 's', 't', 'r', 'a', 'c', 't', 'G', 'r', 'a', 'p', 'h', '3', 'D', ':', ':', 'E', 'l', 'e', 'm', 'e', 'n', 't', 'T', 'y', 'p', 'e', 0,
+    'Q', 'L', 'i', 's', 't', '<', 'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', 'S', 'e', 'r', 'i', 'e', 's', '3', 'D', '*', '>', 0,
     'Q', 'V', 'e', 'c', 't', 'o', 'r', '<', 'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'S', 'u', 'r', 'f', 'a', 'c', 'e', 'D', 'a', 't', 'a', 'I', 't', 'e', 'm', '3', 'D', '>', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'S', 'u', 'r', 'f', 'a', 'c', 'e', 'S', 'e', 'r', 'i', 'e', 's', '3', 'D', ':', ':', 'D', 'r', 'a', 'w', 'F', 'l', 'a', 'g', 's', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'S', 'u', 'r', 'f', 'a', 'c', 'e', 'S', 'e', 'r', 'i', 'e', 's', '3', 'D', ':', ':', 'D', 'r', 'a', 'w', 'F', 'l', 'a', 'g', 0,
@@ -355,13 +431,16 @@ const char sipStrings_QtStackedBars3D[] = {
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'A', 'b', 's', 't', 'r', 'a', 'c', 't', 'S', 'e', 'r', 'i', 'e', 's', '3', 'D', ':', ':', 'M', 'e', 's', 'h', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'A', 'b', 's', 't', 'r', 'a', 'c', 't', 'I', 'n', 'p', 'u', 't', 'H', 'a', 'n', 'd', 'l', 'e', 'r', '3', 'D', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'C', 'a', 'm', 'e', 'r', 'a', '3', 'D', ':', ':', 'C', 'a', 'm', 'e', 'r', 'a', 'P', 'r', 'e', 's', 'e', 't', 0,
+    'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', 'D', 'a', 't', 'a', 'P', 'r', 'o', 'x', 'y', '3', 'D', 0,
     'Q', 'L', 'i', 's', 't', '<', 'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'C', 'u', 's', 't', 'o', 'm', 'I', 't', 'e', 'm', '3', 'D', '*', '>', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'A', 'x', 'i', 's', 'V', 'a', 'l', 'u', 'e', 'F', 'o', 'r', 'm', 'a', 't', 't', 'e', 'r', '3', 'D', 0,
+    'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', 'D', 'a', 't', 'a', 'I', 't', 'e', 'm', '3', 'D', 0,
     'Q', 'L', 'i', 's', 't', '<', 'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'B', 'a', 'r', 'S', 'e', 'r', 'i', 'e', 's', '3', 'D', '*', '>', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'T', 'o', 'u', 'c', 'h', 'I', 'n', 'p', 'u', 't', 'H', 'a', 'n', 'd', 'l', 'e', 'r', '3', 'D', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'A', 'b', 's', 't', 'r', 'a', 'c', 't', 'D', 'a', 't', 'a', 'P', 'r', 'o', 'x', 'y', '3', 'D', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'T', 'h', 'e', 'm', 'e', '3', 'D', ':', ':', 'C', 'o', 'l', 'o', 'r', 'S', 't', 'y', 'l', 'e', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'S', 'u', 'r', 'f', 'a', 'c', 'e', 'D', 'a', 't', 'a', 'P', 'r', 'o', 'x', 'y', '3', 'D', 0,
+    'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', 'S', 'e', 'r', 'i', 'e', 's', '3', 'D', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'S', 'u', 'r', 'f', 'a', 'c', 'e', 'D', 'a', 't', 'a', 'I', 't', 'e', 'm', '3', 'D', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'A', 'b', 's', 't', 'r', 'a', 'c', 't', 'S', 'e', 'r', 'i', 'e', 's', '3', 'D', 0,
     'Q', 'L', 'i', 's', 't', '<', 'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'T', 'h', 'e', 'm', 'e', '3', 'D', '*', '>', 0,
@@ -375,6 +454,7 @@ const char sipStrings_QtStackedBars3D[] = {
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'I', 'n', 'p', 'u', 't', 'H', 'a', 'n', 'd', 'l', 'e', 'r', '3', 'D', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'C', 'u', 's', 't', 'o', 'm', 'L', 'a', 'b', 'e', 'l', '3', 'D', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'B', 'a', 'r', 'D', 'a', 't', 'a', 'I', 't', 'e', 'm', '3', 'D', 0,
+    'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', 's', '3', 'D', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'C', 'u', 's', 't', 'o', 'm', 'I', 't', 'e', 'm', '3', 'D', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'V', 'a', 'l', 'u', 'e', 'A', 'x', 'i', 's', '3', 'D', 0,
     'Q', 't', 'S', 't', 'a', 'c', 'k', 'e', 'd', 'B', 'a', 'r', '3', 'D', 'V', 'i', 's', ':', ':', 'Q', 'B', 'a', 'r', 'S', 'e', 'r', 'i', 'e', 's', '3', 'D', 0,
@@ -622,6 +702,7 @@ const char sipStrings_QtStackedBars3D[] = {
     't', 'e', 'x', 't', 'C', 'o', 'l', 'o', 'r', 'C', 'h', 'a', 'n', 'g', 'e', 'd', 0,
     's', 'e', 't', 'B', 'o', 'r', 'd', 'e', 'r', 'E', 'n', 'a', 'b', 'l', 'e', 'd', 0,
     's', 'e', 't', 'S', 'h', 'a', 'd', 'o', 'w', 'C', 'a', 's', 't', 'i', 'n', 'g', 0,
+    's', 'e', 't', 'S', 'e', 'c', 't', 'i', 'o', 'n', 'C', 'o', 'l', 'o', 'r', 's', 0,
     'r', 'o', 'w', 'L', 'a', 'b', 'e', 'l', 's', 'C', 'h', 'a', 'n', 'g', 'e', 'd', 0,
     'm', 'e', 's', 'h', 'A', 'n', 'g', 'l', 'e', 'C', 'h', 'a', 'n', 'g', 'e', 'd', 0,
     'd', 'a', 't', 'a', 'P', 'r', 'o', 'x', 'y', 'C', 'h', 'a', 'n', 'g', 'e', 'd', 0,
@@ -664,6 +745,7 @@ const char sipStrings_QtStackedBars3D[] = {
     'r', 'o', 't', 'a', 't', 'i', 'o', 'n', 'C', 'h', 'a', 'n', 'g', 'e', 'd', 0,
     'm', 'e', 's', 'h', 'F', 'i', 'l', 'e', 'C', 'h', 'a', 'n', 'g', 'e', 'd', 0,
     'i', 's', 'S', 'h', 'a', 'd', 'o', 'w', 'C', 'a', 's', 't', 'i', 'n', 'g', 0,
+    's', 'e', 't', 'S', 'e', 'c', 't', 'i', 'o', 'n', 'C', 'o', 'l', 'o', 'r', 0,
     'r', 'o', 'w', 'C', 'o', 'u', 'n', 't', 'C', 'h', 'a', 'n', 'g', 'e', 'd', 0,
     's', 'e', 't', 'C', 'o', 'l', 'u', 'm', 'n', 'L', 'a', 'b', 'e', 'l', 's', 0,
     'D', 'a', 't', 'a', 'T', 'y', 'p', 'e', 'S', 'u', 'r', 'f', 'a', 'c', 'e', 0,
@@ -725,6 +807,7 @@ const char sipStrings_QtStackedBars3D[] = {
     'g', 'r', 'i', 'd', 'P', 'o', 's', 'i', 't', 'i', 'o', 'n', 's', 0,
     's', 'e', 'l', 'e', 'c', 't', 'e', 'd', 'P', 'o', 'i', 'n', 't', 0,
     'D', 'r', 'a', 'w', 'W', 'i', 'r', 'e', 'f', 'r', 'a', 'm', 'e', 0,
+    's', 'e', 'c', 't', 'i', 'o', 'n', 'C', 'o', 'l', 'o', 'r', 's', 0,
     's', 'e', 'r', 'i', 'e', 's', 'C', 'h', 'a', 'n', 'g', 'e', 'd', 0,
     's', 'e', 't', 'M', 'e', 's', 'h', 'S', 'm', 'o', 'o', 't', 'h', 0,
     'M', 'e', 's', 'h', 'B', 'e', 'v', 'e', 'l', 'C', 'u', 'b', 'e', 0,
@@ -772,6 +855,7 @@ const char sipStrings_QtStackedBars3D[] = {
     's', 'e', 't', 'A', 'l', 'l', 'o', 'w', 'Z', 'e', 'r', 'o', 0,
     's', 'e', 't', 'F', 'o', 'r', 'm', 'a', 't', 't', 'e', 'r', 0,
     's', 'e', 't', 'T', 'e', 'x', 't', 'C', 'o', 'l', 'o', 'r', 0,
+    's', 'e', 't', 'R', 'o', 't', 'a', 't', 'i', 'o', 'n', 's', 0,
     'r', 'e', 'm', 'o', 'v', 'e', 'L', 'a', 'b', 'e', 'l', 's', 0,
     'c', 'o', 'l', 'u', 'm', 'n', 'L', 'a', 'b', 'e', 'l', 's', 0,
     's', 'e', 't', 'R', 'o', 'w', 'L', 'a', 'b', 'e', 'l', 's', 0,
@@ -887,6 +971,8 @@ const char sipStrings_QtStackedBars3D[] = {
     'f', 'o', 'r', 'm', 'a', 't', 't', 'e', 'r', 0,
     'a', 'n', 't', 'i', 'a', 'l', 'i', 'a', 's', 0,
     't', 'e', 'x', 't', 'C', 'o', 'l', 'o', 'r', 0,
+    'r', 'o', 't', 'a', 't', 'i', 'o', 'n', 's', 0,
+    's', 'e', 't', 'V', 'a', 'l', 'u', 'e', 's', 0,
     'r', 'o', 'w', 's', 'A', 'd', 'd', 'e', 'd', 0,
     'r', 'o', 'w', 'L', 'a', 'b', 'e', 'l', 's', 0,
     'm', 'e', 's', 'h', 'A', 'n', 'g', 'l', 'e', 0,
@@ -992,6 +1078,7 @@ const char sipStrings_QtStackedBars3D[] = {
     'p', 'r', 'e', 'f', 'i', 'x', 0,
     'f', 'i', 'l', 't', 'e', 'r', 0,
     'o', 'p', 't', 'i', 'o', 'n', 0,
+    'v', 'a', 'l', 'u', 'e', 's', 0,
     'l', 'o', 'c', 'a', 'l', 'e', 0,
     't', 'a', 'r', 'g', 'e', 't', 0,
     'p', 'a', 'r', 'e', 'n', 't', 0,
@@ -1035,7 +1122,7 @@ const char sipStrings_QtStackedBars3D[] = {
 #line 28 "sip/QtStackedBars3D/qstackedbar3dglobal.sip"
 static int PYQT_DATAVISUALIZATION_VERSION = 0x050b02;
 static const char *PYQT_DATAVISUALIZATION_VERSION_STR = "5.11.2";
-#line 1039 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 1126 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 
 void sipVH_QtStackedBars3D_28(sip_gilstate_t sipGILState, sipVirtErrorHandlerFunc sipErrorHandler, sipSimpleWrapper *sipPySelf, PyObject *sipMethod,  ::QtStackedBar3DVis::QAxisValueFormatter3D& a0)
 {
@@ -1274,6 +1361,7 @@ static const sipTypeDef *sipSubClass_QtStackedBar3DVis_QTheme3D(void **sipCppRet
             {sipName_QtStackedBar3DVis__QSurfaceDataProxy3D, &sipType_QtStackedBar3DVis_QSurfaceDataProxy3D, 16, 14},
             /*{sipName_QtStackedBar3DVis__QScatterDataProxy3D, &sipType_QtStackedBar3DVis_QScatterDataProxy3D, 18, 15},*/
             {sipName_QtStackedBar3DVis__QBarDataProxy3D, &sipType_QtStackedBar3DVis_QBarDataProxy3D, 19, -1},
+            {sipName_QtStackedBar3DVis__QStackedBarDataProxy3D, &sipType_QtStackedBar3DVis_QStackedBarDataProxy3D, -1, -1},
             /*{sipName_QtStackedBar3DVis__QItemModelSurfaceDataProxy, &sipType_QtStackedBar3DVis_QItemModelSurfaceDataProxy, -1, 17},
             {sipName_QtStackedBar3DVis__QHeightMapSurfaceDataProxy, &sipType_QtStackedBar3DVis_QHeightMapSurfaceDataProxy, -1, -1},
             {sipName_QtStackedBar3DVis__QItemModelScatterDataProxy, &sipType_QtStackedBar3DVis_QItemModelScatterDataProxy, -1, -1},
@@ -1296,8 +1384,11 @@ static const sipTypeDef *sipSubClass_QtStackedBar3DVis_QTheme3D(void **sipCppRet
             /*{sipName_QtStackedBar3DVis__Q3DSurface, &sipType_QtStackedBar3DVis_Q3DSurface, -1, 28},
             {sipName_QtStackedBar3DVis__Q3DScatter, &sipType_QtStackedBar3DVis_Q3DScatter, -1, 29},*/
             {sipName_QtStackedBar3DVis__QBars3D, &sipType_QtStackedBar3DVis_QBars3D, -1, -1},
+            {sipName_QtStackedBar3DVis__QStackedBars3D, &sipType_QtStackedBar3DVis_QStackedBars3D, -1, -1},
             {sipName_QtStackedBar3DVis__QCamera3D, &sipType_QtStackedBar3DVis_QCamera3D, -1, 31},
             {sipName_QtStackedBar3DVis__QLight3D, &sipType_QtStackedBar3DVis_QLight3D, -1, -1},
+            {sipName_QtStackedBar3DVis__QStackedBarSeries3D, &sipType_QtStackedBar3DVis_QStackedBarSeries3D, -1, -1},
+
         };
         
         int i = 0;
@@ -1317,7 +1408,7 @@ static const sipTypeDef *sipSubClass_QtStackedBar3DVis_QTheme3D(void **sipCppRet
                 i = cg->no;
         }
         while (i >= 0);
-#line 1321 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
+#line 1412 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3Dcmodule.cpp"
 
     return sipType;
 }
@@ -1396,20 +1487,20 @@ static sipPySlotDef slots_QtStackedBar3DVis_QAbstractGraph3D_SelectionFlag[] = {
 };
 
 static sipEnumTypeDef enumTypes[] = {
-    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QSurfaceSeries3D__DrawFlag, {0}, 0}, sipNameNr_DrawFlag, 45, NULL},
-    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractDataProxy3D__DataType, {0}, 0}, sipNameNr_DataType, 15, NULL},
-    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractSeries3D__Mesh, {0}, 0}, sipNameNr_Mesh, 26, NULL},
-    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractSeries3D__SeriesType, {0}, 0}, sipNameNr_SeriesType, 26, NULL},
-    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractInputHandler3D__InputView, {0}, 0}, sipNameNr_InputView, 24, NULL},
-    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractGraph3D__OptimizationHint, {0}, 0}, sipNameNr_OptimizationHint, 17, slots_QtStackedBar3DVis_QAbstractGraph3D_OptimizationHint},
-    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractGraph3D__ElementType, {0}, 0}, sipNameNr_ElementType, 17, NULL},
-    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractGraph3D__ShadowQuality, {0}, 0}, sipNameNr_ShadowQuality, 17, NULL},
-    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractGraph3D__SelectionFlag, {0}, 0}, sipNameNr_SelectionFlag, 17, slots_QtStackedBar3DVis_QAbstractGraph3D_SelectionFlag},
-    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractAxis3D__AxisType, {0}, 0}, sipNameNr_AxisType, 12, NULL},
-    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractAxis3D__AxisOrientation, {0}, 0}, sipNameNr_AxisOrientation, 12, NULL},
-    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QTheme3D__Theme, {0}, 0}, sipNameNr_Theme, 48, NULL},
-    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QTheme3D__ColorStyle, {0}, 0}, sipNameNr_ColorStyle, 48, NULL},
-    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QCamera3D__CameraPreset, {0}, 0}, sipNameNr_CameraPreset, 34, NULL},
+    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QSurfaceSeries3D__DrawFlag, {0}, 0}, sipNameNr_DrawFlag, 52, NULL},
+    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractDataProxy3D__DataType, {0}, 0}, sipNameNr_DataType, 18, NULL},
+    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractSeries3D__Mesh, {0}, 0}, sipNameNr_Mesh, 29, NULL},
+    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractSeries3D__SeriesType, {0}, 0}, sipNameNr_SeriesType, 29, NULL},
+    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractInputHandler3D__InputView, {0}, 0}, sipNameNr_InputView, 27, NULL},
+    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractGraph3D__OptimizationHint, {0}, 0}, sipNameNr_OptimizationHint, 20, slots_QtStackedBar3DVis_QAbstractGraph3D_OptimizationHint},
+    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractGraph3D__ElementType, {0}, 0}, sipNameNr_ElementType, 20, NULL},
+    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractGraph3D__ShadowQuality, {0}, 0}, sipNameNr_ShadowQuality, 20, NULL},
+    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractGraph3D__SelectionFlag, {0}, 0}, sipNameNr_SelectionFlag, 20, slots_QtStackedBar3DVis_QAbstractGraph3D_SelectionFlag},
+    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractAxis3D__AxisType, {0}, 0}, sipNameNr_AxisType, 15, NULL},
+    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QAbstractAxis3D__AxisOrientation, {0}, 0}, sipNameNr_AxisOrientation, 15, NULL},
+    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QTheme3D__Theme, {0}, 0}, sipNameNr_Theme, 55, NULL},
+    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QTheme3D__ColorStyle, {0}, 0}, sipNameNr_ColorStyle, 55, NULL},
+    {{-1, 0, 0, SIP_TYPE_ENUM, sipNameNr_QtStackedBar3DVis__QCamera3D__CameraPreset, {0}, 0}, sipNameNr_CameraPreset, 37, NULL},
 };
 
 
@@ -1420,13 +1511,16 @@ sipTypeDef *sipExportedTypes_QtStackedBars3D[] = {
     &sipTypeDef_QtStackedBars3D_QList_0100QColor.mtd_base,
     &sipTypeDef_QtStackedBars3D_QList_0100QLinearGradient.mtd_base,
     &sipTypeDef_QtStackedBars3D_QList_0601QVector_0100QtStackedBar3DVis_QBarDataItem3D.mtd_base,
+    &sipTypeDef_QtStackedBars3D_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D.mtd_base,
     &sipTypeDef_QtStackedBars3D_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D.mtd_base,
     &sipTypeDef_QtStackedBars3D_QList_0101QtStackedBar3DVis_QAbstractAxis3D.mtd_base,
     &sipTypeDef_QtStackedBars3D_QList_0101QtStackedBar3DVis_QAbstractInputHandler3D.mtd_base,
     &sipTypeDef_QtStackedBars3D_QList_0101QtStackedBar3DVis_QBarSeries3D.mtd_base,
     &sipTypeDef_QtStackedBars3D_QList_0101QtStackedBar3DVis_QCustomItem3D.mtd_base,
+    &sipTypeDef_QtStackedBars3D_QList_0101QtStackedBar3DVis_QStackedBarSeries3D.mtd_base,
     &sipTypeDef_QtStackedBars3D_QList_0101QtStackedBar3DVis_QTheme3D.mtd_base,
     &sipTypeDef_QtStackedBars3D_QVector_0100QtStackedBar3DVis_QBarDataItem3D.mtd_base,
+    &sipTypeDef_QtStackedBars3D_QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D.mtd_base,
     &sipTypeDef_QtStackedBars3D_QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D.mtd_base,
     &sipTypeDef_QtStackedBars3D_QtStackedBar3DVis.ctd_base,
     &sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QAbstractAxis3D.ctd_base,
@@ -1460,6 +1554,10 @@ sipTypeDef *sipExportedTypes_QtStackedBars3D[] = {
     &sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QLight3D.ctd_base,
     &sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QObject3D.ctd_base,
     &sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QScene3D.ctd_base,
+    &sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QStackedBarDataItem3D.ctd_base,
+    &sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QStackedBarDataProxy3D.ctd_base,
+    &sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QStackedBarSeries3D.ctd_base,
+    &sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QStackedBars3D.ctd_base,
     &sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QSurfaceDataItem3D.ctd_base,
     &sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QSurfaceDataProxy3D.ctd_base,
     &sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QSurfaceSeries3D.ctd_base,
@@ -1479,6 +1577,8 @@ sipTypeDef *sipExportedTypes_QtStackedBars3D[] = {
 static sipTypedefDef typedefsTable[] = {
     {"QtStackedBar3DVis::QBarDataArray3D", "QList<QVector<QtStackedBar3DVis::QBarDataItem3D>*>"},
     {"QtStackedBar3DVis::QBarDataRow3D", "QVector<QtStackedBar3DVis::QBarDataItem3D>"},
+    {"QtStackedBar3DVis::QStackedBarDataArray3D", "QList<QVector<QtStackedBar3DVis::QStackedBarDataItem3D>*>"},
+    {"QtStackedBar3DVis::QStackedBarDataRow3D", "QVector<QtStackedBar3DVis::QStackedBarDataItem3D>"},
     {"QtStackedBar3DVis::QSurfaceDataArray3D", "QList<QVector<QtStackedBar3DVis::QSurfaceDataItem3D>*>"},
     {"QtStackedBar3DVis::QSurfaceDataRow3D", "QVector<QtStackedBar3DVis::QSurfaceDataItem3D>"},
 };
@@ -1488,6 +1588,7 @@ static sipTypedefDef typedefsTable[] = {
 sipImportedTypeDef sipImportedTypes_QtStackedBars3D_QtCore[] = {
     {"QChildEvent"},
     {"QEvent"},
+    {"QList<qreal>"},
     {"QLocale"},
     {"QMetaMethod"},
     {"QObject"},
@@ -1550,7 +1651,7 @@ static sipImportedModuleDef importsTable[] = {
 
 /* This defines the class sub-convertors that this module defines. */
 static sipSubClassConvertorDef convertorsTable[] = {
-    {sipSubClass_QtStackedBar3DVis_QTheme3D, {4, 0, 0}, NULL},
+    {sipSubClass_QtStackedBar3DVis_QTheme3D, {5, 0, 0}, NULL},
     {NULL, {0, 0, 0}, NULL}
 };
 
@@ -1578,12 +1679,12 @@ sipExportedModuleDef sipModuleAPI_QtStackedBars3D = {
     sipStrings_QtStackedBars3D,
     importsTable,
     NULL,
-    53,
+    60,
     sipExportedTypes_QtStackedBars3D,
     NULL,
     0,
     NULL,
-    4,
+    6,
     typedefsTable,
     NULL,
     convertorsTable,

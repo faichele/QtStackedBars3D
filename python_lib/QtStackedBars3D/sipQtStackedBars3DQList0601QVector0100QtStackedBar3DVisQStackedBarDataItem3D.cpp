@@ -26,7 +26,7 @@
 #line 37 "sip/QtStackedBars3D/qlist.sip"
 #include <qlist.h>
 #include <qvector.h>
-#line 30 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0601QVector0100QtStackedBar3DVisQSurfaceDataItem3D.cpp"
+#line 30 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0601QVector0100QtStackedBar3DVisQStackedBarDataItem3D.cpp"
 
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
@@ -64,57 +64,45 @@
 #include <QStackedBarSeries3D.h>
 #line 26 "sip/QtStackedBars3D/qstackedbardataitem3d.sip"
 #include <QStackedBarDataItem3D.h>
-#line 26 "sip/QtStackedBars3D/qstackedbardataproxy3d.sip"
-#include <QStackedBarDataProxy3D.h>
-#line 26 "sip/QtStackedBars3D/qcategoryaxis3d.sip"
-#include <QCategoryAxis3D.h>
-#line 26 "sip/QtStackedBars3D/qcustomitem3d.sip"
-#include <QCustomItem3D.h>
-#line 26 "sip/QtStackedBars3D/qcustomlabel3d.sip"
-#include <QCustomLabel3D.h>
-#line 26 "sip/QtStackedBars3D/qsurfaceseries3d.sip"
-#include <QSurfaceSeries3D.h>
-#line 26 "sip/QtStackedBars3D/qsurfacedataitem3d.sip"
-#include <QSurfaceDataItem3D.h>
-#line 32 "sip/QtStackedBars3D/qsurfacedataitem3d.sip"
-#include <QSurfaceDataItem3D.h>
-#line 82 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0601QVector0100QtStackedBar3DVisQSurfaceDataItem3D.cpp"
+#line 32 "sip/QtStackedBars3D/qstackedbardataitem3d.sip"
+#include <QStackedBarDataItem3D.h>
+#line 70 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0601QVector0100QtStackedBar3DVisQStackedBarDataItem3D.cpp"
 
 
-extern "C" {static void assign_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(void *, SIP_SSIZE_T, void *);}
-static void assign_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(void *sipDst, SIP_SSIZE_T sipDstIdx, void *sipSrc)
+extern "C" {static void assign_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D(void *, SIP_SSIZE_T, void *);}
+static void assign_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D(void *sipDst, SIP_SSIZE_T sipDstIdx, void *sipSrc)
 {
-    reinterpret_cast<QList<QVector<QtStackedBar3DVis::QSurfaceDataItem3D>*> *>(sipDst)[sipDstIdx] = *reinterpret_cast<QList<QVector<QtStackedBar3DVis::QSurfaceDataItem3D>*> *>(sipSrc);
+    reinterpret_cast<QList<QVector<QtStackedBar3DVis::QStackedBarDataItem3D>*> *>(sipDst)[sipDstIdx] = *reinterpret_cast<QList<QVector<QtStackedBar3DVis::QStackedBarDataItem3D>*> *>(sipSrc);
 }
 
 
-extern "C" {static void *array_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(SIP_SSIZE_T);}
-static void *array_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(SIP_SSIZE_T sipNrElem)
+extern "C" {static void *array_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D(SIP_SSIZE_T);}
+static void *array_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D(SIP_SSIZE_T sipNrElem)
 {
-    return new QList<QVector<QtStackedBar3DVis::QSurfaceDataItem3D>*>[sipNrElem];
+    return new QList<QVector<QtStackedBar3DVis::QStackedBarDataItem3D>*>[sipNrElem];
 }
 
 
-extern "C" {static void *copy_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(const void *, SIP_SSIZE_T);}
-static void *copy_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(const void *sipSrc, SIP_SSIZE_T sipSrcIdx)
+extern "C" {static void *copy_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D(const void *, SIP_SSIZE_T);}
+static void *copy_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D(const void *sipSrc, SIP_SSIZE_T sipSrcIdx)
 {
-    return new QList<QVector<QtStackedBar3DVis::QSurfaceDataItem3D>*>(reinterpret_cast<const QList<QVector<QtStackedBar3DVis::QSurfaceDataItem3D>*> *>(sipSrc)[sipSrcIdx]);
+    return new QList<QVector<QtStackedBar3DVis::QStackedBarDataItem3D>*>(reinterpret_cast<const QList<QVector<QtStackedBar3DVis::QStackedBarDataItem3D>*> *>(sipSrc)[sipSrcIdx]);
 }
 
 
 /* Call the mapped type's destructor. */
-extern "C" {static void release_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(void *, int);}
-static void release_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(void *ptr, int)
+extern "C" {static void release_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D(void *, int);}
+static void release_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D(void *ptr, int)
 {
-    delete reinterpret_cast<QList<QVector<QtStackedBar3DVis::QSurfaceDataItem3D>*> *>(ptr);
+    delete reinterpret_cast<QList<QVector<QtStackedBar3DVis::QStackedBarDataItem3D>*> *>(ptr);
 }
 
 
 
-extern "C" {static int convertTo_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(PyObject *, void **, int *, PyObject *);}
-static int convertTo_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(PyObject *sipPy,void **sipCppPtrV,int *sipIsErr,PyObject *sipTransferObj)
+extern "C" {static int convertTo_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D(PyObject *, void **, int *, PyObject *);}
+static int convertTo_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D(PyObject *sipPy,void **sipCppPtrV,int *sipIsErr,PyObject *sipTransferObj)
 {
-    QList<QVector<QtStackedBar3DVis::QSurfaceDataItem3D>*> **sipCppPtr = reinterpret_cast<QList<QVector<QtStackedBar3DVis::QSurfaceDataItem3D>*> **>(sipCppPtrV);
+    QList<QVector<QtStackedBar3DVis::QStackedBarDataItem3D>*> **sipCppPtr = reinterpret_cast<QList<QVector<QtStackedBar3DVis::QStackedBarDataItem3D>*> **>(sipCppPtrV);
 
 #line 84 "sip/QtStackedBars3D/qlist.sip"
     PyObject *iter = PyObject_GetIter(sipPy);
@@ -137,7 +125,7 @@ static int convertTo_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(
         return 0;
     }
 
-    QList<QVector<QtStackedBar3DVis::QSurfaceDataItem3D> *> *ql = new QList<QVector<QtStackedBar3DVis::QSurfaceDataItem3D> *>;
+    QList<QVector<QtStackedBar3DVis::QStackedBarDataItem3D> *> *ql = new QList<QVector<QtStackedBar3DVis::QStackedBarDataItem3D> *>;
  
     for (SIP_SSIZE_T i = 0; ; ++i)
     {
@@ -172,7 +160,7 @@ static int convertTo_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(
             return 0;
         }
 
-        QVector<QtStackedBar3DVis::QSurfaceDataItem3D> *qv = new QVector<QtStackedBar3DVis::QSurfaceDataItem3D>;
+        QVector<QtStackedBar3DVis::QStackedBarDataItem3D> *qv = new QVector<QtStackedBar3DVis::QStackedBarDataItem3D>;
 
         ql->append(qv);
 
@@ -197,14 +185,14 @@ static int convertTo_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(
             }
 
             int state;
-            QtStackedBar3DVis::QSurfaceDataItem3D *t = reinterpret_cast<QtStackedBar3DVis::QSurfaceDataItem3D *>(
-                    sipForceConvertToType(vec_itm, sipType_QtStackedBar3DVis_QSurfaceDataItem3D,
+            QtStackedBar3DVis::QStackedBarDataItem3D *t = reinterpret_cast<QtStackedBar3DVis::QStackedBarDataItem3D *>(
+                    sipForceConvertToType(vec_itm, sipType_QtStackedBar3DVis_QStackedBarDataItem3D,
                             sipTransferObj, SIP_NOT_NONE, &state, sipIsErr));
  
             if (*sipIsErr)
             {
                 PyErr_Format(PyExc_TypeError,
-                        "index " SIP_SSIZE_T_FORMAT ", " SIP_SSIZE_T_FORMAT " has type '%s' but 'QtStackedBar3DVis::QSurfaceDataItem3D' is expected",
+                        "index " SIP_SSIZE_T_FORMAT ", " SIP_SSIZE_T_FORMAT " has type '%s' but 'QtStackedBar3DVis::QStackedBarDataItem3D' is expected",
                         i, j, sipPyTypeName(Py_TYPE(itm)));
 
                 Py_DECREF(vec_itm);
@@ -219,7 +207,7 @@ static int convertTo_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(
 
             qv->append(*t);
 
-            sipReleaseType(t, sipType_QtStackedBar3DVis_QSurfaceDataItem3D, state);
+            sipReleaseType(t, sipType_QtStackedBar3DVis_QStackedBarDataItem3D, state);
             Py_DECREF(vec_itm);
         }
 
@@ -233,14 +221,14 @@ static int convertTo_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(
     *sipCppPtr = ql;
  
     return sipGetState(sipTransferObj);
-#line 237 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0601QVector0100QtStackedBar3DVisQSurfaceDataItem3D.cpp"
+#line 225 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0601QVector0100QtStackedBar3DVisQStackedBarDataItem3D.cpp"
 }
 
 
-extern "C" {static PyObject *convertFrom_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(void *, PyObject *);}
-static PyObject *convertFrom_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D(void *sipCppV, PyObject *sipTransferObj)
+extern "C" {static PyObject *convertFrom_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D(void *, PyObject *);}
+static PyObject *convertFrom_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D(void *sipCppV, PyObject *sipTransferObj)
 {
-   QList<QVector<QtStackedBar3DVis::QSurfaceDataItem3D>*> *sipCpp = reinterpret_cast<QList<QVector<QtStackedBar3DVis::QSurfaceDataItem3D>*> *>(sipCppV);
+   QList<QVector<QtStackedBar3DVis::QStackedBarDataItem3D>*> *sipCpp = reinterpret_cast<QList<QVector<QtStackedBar3DVis::QStackedBarDataItem3D>*> *>(sipCppV);
 
 #line 42 "sip/QtStackedBars3D/qlist.sip"
     PyObject *l = PyList_New(sipCpp->size());
@@ -250,7 +238,7 @@ static PyObject *convertFrom_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDat
 
     for (int i = 0; i < sipCpp->size(); ++i)
     {
-        QVector<QtStackedBar3DVis::QSurfaceDataItem3D> *t_vec = sipCpp->at(i);
+        QVector<QtStackedBar3DVis::QStackedBarDataItem3D> *t_vec = sipCpp->at(i);
 
         PyObject *v = PyList_New(t_vec->size());
 
@@ -265,8 +253,8 @@ static PyObject *convertFrom_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDat
 
         for (int j = 0; j < t_vec->size(); ++j)
         {
-            QtStackedBar3DVis::QSurfaceDataItem3D *t = new QtStackedBar3DVis::QSurfaceDataItem3D(t_vec->at(i));
-            PyObject *tobj = sipConvertFromType(t, sipType_QtStackedBar3DVis_QSurfaceDataItem3D,
+            QtStackedBar3DVis::QStackedBarDataItem3D *t = new QtStackedBar3DVis::QStackedBarDataItem3D(t_vec->at(i));
+            PyObject *tobj = sipConvertFromType(t, sipType_QtStackedBar3DVis_QStackedBarDataItem3D,
                     sipTransferObj);
 
             if (!tobj)
@@ -282,17 +270,17 @@ static PyObject *convertFrom_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDat
     }
 
     return l;
-#line 286 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0601QVector0100QtStackedBar3DVisQSurfaceDataItem3D.cpp"
+#line 274 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0601QVector0100QtStackedBar3DVisQStackedBarDataItem3D.cpp"
 }
 
 
-sipMappedTypeDef sipTypeDef_QtStackedBars3D_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D = {
+sipMappedTypeDef sipTypeDef_QtStackedBars3D_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D = {
     {
         -1,
         0,
         0,
         SIP_TYPE_MAPPED,
-        sipNameNr_58,     /* QList<QVector<QtStackedBar3DVis::QSurfaceDataItem3D>*> */
+        sipNameNr_0,     /* QList<QVector<QtStackedBar3DVis::QStackedBarDataItem3D>*> */
         {0},
         0
     },
@@ -304,10 +292,10 @@ sipMappedTypeDef sipTypeDef_QtStackedBars3D_QList_0601QVector_0100QtStackedBar3D
         0, 0,
         {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
     },
-    assign_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D,
-    array_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D,
-    copy_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D,
-    release_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D,
-    convertTo_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D,
-    convertFrom_QList_0601QVector_0100QtStackedBar3DVis_QSurfaceDataItem3D
+    assign_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D,
+    array_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D,
+    copy_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D,
+    release_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D,
+    convertTo_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D,
+    convertFrom_QList_0601QVector_0100QtStackedBar3DVis_QStackedBarDataItem3D
 };

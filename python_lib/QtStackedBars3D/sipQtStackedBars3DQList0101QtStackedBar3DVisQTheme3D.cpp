@@ -29,6 +29,8 @@
 
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -43,7 +45,7 @@
 #include <QTheme3D.h>
 #line 32 "sip/QtStackedBars3D/qtheme3d.sip"
 #include <QTheme3D.h>
-#line 47 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQTheme3D.cpp"
+#line 49 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQTheme3D.cpp"
 
 
 extern "C" {static void assign_QList_0101QtStackedBar3DVis_QTheme3D(void *, SIP_SSIZE_T, void *);}
@@ -151,7 +153,7 @@ static int convertTo_QList_0101QtStackedBar3DVis_QTheme3D(PyObject *sipPy,void *
     *sipCppPtr = ql;
  
     return sipGetState(sipTransferObj);
-#line 155 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQTheme3D.cpp"
+#line 157 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQTheme3D.cpp"
 }
 
 
@@ -189,7 +191,7 @@ static PyObject *convertFrom_QList_0101QtStackedBar3DVis_QTheme3D(void *sipCppV,
     sipEnableGC(gc_enabled);
 
     return l;
-#line 193 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQTheme3D.cpp"
+#line 195 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQTheme3D.cpp"
 }
 
 
@@ -199,7 +201,7 @@ sipMappedTypeDef sipTypeDef_QtStackedBars3D_QList_0101QtStackedBar3DVis_QTheme3D
         0,
         0,
         SIP_TYPE_MAPPED,
-        sipNameNr_1430,     /* QList<QtStackedBar3DVis::QTheme3D*> */
+        sipNameNr_1707,     /* QList<QtStackedBar3DVis::QTheme3D*> */
         {0},
         0
     },

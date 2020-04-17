@@ -25,20 +25,24 @@
 
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 32 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
-#line 33 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 35 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 
 #line 28 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qobject.sip"
 #include <qobject.h>
-#line 37 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 39 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 30 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qvector3d.sip"
 #include <qvector3d.h>
-#line 40 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 42 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -49,9 +53,11 @@
 #include <QObject3D.h>
 #line 32 "sip/QtStackedBars3D/qobject3d.sip"
 #include <QObject3D.h>
-#line 53 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 57 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -64,52 +70,52 @@
 #include <QScene3D.h>
 #line 32 "sip/QtStackedBars3D/qscene3d.sip"
 #include <QScene3D.h>
-#line 68 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 74 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qmetaobject.sip"
 #include <qmetaobject.h>
-#line 71 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 77 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qcoreevent.sip"
 #include <qcoreevent.h>
-#line 74 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 80 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 247 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qcoreevent.sip"
 #include <qcoreevent.h>
-#line 77 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 83 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 235 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qcoreevent.sip"
 #include <qcoreevent.h>
-#line 80 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 86 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 27 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qstring.sip"
 #include <qstring.h>
-#line 83 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 89 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qvariant.sip"
 #include <qvariant.h>
-#line 86 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 92 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 38 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qpycore_qlist.sip"
 #include <qlist.h>
-#line 89 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 95 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 30 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qbytearray.sip"
 #include <qbytearray.h>
-#line 92 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 98 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 149 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qpycore_qlist.sip"
 #include <qlist.h>
-#line 95 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
-#line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qnamespace.sip"
-#include <qnamespace.h>
-#line 98 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
-#line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qthread.sip"
-#include <qthread.h>
 #line 101 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qnamespace.sip"
 #include <qnamespace.h>
 #line 104 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qthread.sip"
+#include <qthread.h>
+#line 107 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qnamespace.sip"
+#include <qnamespace.h>
+#line 110 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qregexp.sip"
 #include <qregexp.h>
-#line 107 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 113 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qregularexpression.sip"
 #include <qregularexpression.h>
-#line 110 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 116 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qobjectdefs.sip"
 #include <qobjectdefs.h>
-#line 113 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
+#line 119 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQCamera3D.cpp"
 
 
 class sipQtStackedBar3DVis_QCamera3D : public  ::QtStackedBar3DVis::QCamera3D
@@ -938,7 +944,7 @@ static void *init_type_QtStackedBar3DVis_QCamera3D(sipSimpleWrapper *sipSelf, Py
 
 
 /* Define this type's super-types. */
-static sipEncodedTypeDef supers_QtStackedBar3DVis_QCamera3D[] = {{41, 255, 1}};
+static sipEncodedTypeDef supers_QtStackedBar3DVis_QCamera3D[] = {{44, 255, 1}};
 
 
 static PyMethodDef methods_QtStackedBar3DVis_QCamera3D[] = {
@@ -965,31 +971,31 @@ static PyMethodDef methods_QtStackedBar3DVis_QCamera3D[] = {
 };
 
 static sipEnumMemberDef enummembers_QtStackedBar3DVis_QCamera3D[] = {
-    {sipName_CameraPresetBehind, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetBehind), 35},
-    {sipName_CameraPresetBehindBelow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetBehindBelow), 35},
-    {sipName_CameraPresetBehindHigh, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetBehindHigh), 35},
-    {sipName_CameraPresetBehindLow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetBehindLow), 35},
-    {sipName_CameraPresetDirectlyAbove, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetDirectlyAbove), 35},
-    {sipName_CameraPresetDirectlyAboveCCW45, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetDirectlyAboveCCW45), 35},
-    {sipName_CameraPresetDirectlyAboveCW45, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetDirectlyAboveCW45), 35},
-    {sipName_CameraPresetDirectlyBelow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetDirectlyBelow), 35},
-    {sipName_CameraPresetFront, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetFront), 35},
-    {sipName_CameraPresetFrontBelow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetFrontBelow), 35},
-    {sipName_CameraPresetFrontHigh, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetFrontHigh), 35},
-    {sipName_CameraPresetFrontLow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetFrontLow), 35},
-    {sipName_CameraPresetIsometricLeft, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetIsometricLeft), 35},
-    {sipName_CameraPresetIsometricLeftHigh, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetIsometricLeftHigh), 35},
-    {sipName_CameraPresetIsometricRight, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetIsometricRight), 35},
-    {sipName_CameraPresetIsometricRightHigh, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetIsometricRightHigh), 35},
-    {sipName_CameraPresetLeft, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetLeft), 35},
-    {sipName_CameraPresetLeftBelow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetLeftBelow), 35},
-    {sipName_CameraPresetLeftHigh, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetLeftHigh), 35},
-    {sipName_CameraPresetLeftLow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetLeftLow), 35},
-    {sipName_CameraPresetNone, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetNone), 35},
-    {sipName_CameraPresetRight, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetRight), 35},
-    {sipName_CameraPresetRightBelow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetRightBelow), 35},
-    {sipName_CameraPresetRightHigh, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetRightHigh), 35},
-    {sipName_CameraPresetRightLow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetRightLow), 35},
+    {sipName_CameraPresetBehind, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetBehind), 38},
+    {sipName_CameraPresetBehindBelow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetBehindBelow), 38},
+    {sipName_CameraPresetBehindHigh, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetBehindHigh), 38},
+    {sipName_CameraPresetBehindLow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetBehindLow), 38},
+    {sipName_CameraPresetDirectlyAbove, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetDirectlyAbove), 38},
+    {sipName_CameraPresetDirectlyAboveCCW45, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetDirectlyAboveCCW45), 38},
+    {sipName_CameraPresetDirectlyAboveCW45, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetDirectlyAboveCW45), 38},
+    {sipName_CameraPresetDirectlyBelow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetDirectlyBelow), 38},
+    {sipName_CameraPresetFront, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetFront), 38},
+    {sipName_CameraPresetFrontBelow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetFrontBelow), 38},
+    {sipName_CameraPresetFrontHigh, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetFrontHigh), 38},
+    {sipName_CameraPresetFrontLow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetFrontLow), 38},
+    {sipName_CameraPresetIsometricLeft, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetIsometricLeft), 38},
+    {sipName_CameraPresetIsometricLeftHigh, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetIsometricLeftHigh), 38},
+    {sipName_CameraPresetIsometricRight, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetIsometricRight), 38},
+    {sipName_CameraPresetIsometricRightHigh, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetIsometricRightHigh), 38},
+    {sipName_CameraPresetLeft, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetLeft), 38},
+    {sipName_CameraPresetLeftBelow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetLeftBelow), 38},
+    {sipName_CameraPresetLeftHigh, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetLeftHigh), 38},
+    {sipName_CameraPresetLeftLow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetLeftLow), 38},
+    {sipName_CameraPresetNone, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetNone), 38},
+    {sipName_CameraPresetRight, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetRight), 38},
+    {sipName_CameraPresetRightBelow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetRightBelow), 38},
+    {sipName_CameraPresetRightHigh, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetRightHigh), 38},
+    {sipName_CameraPresetRightLow, static_cast<int>( ::QtStackedBar3DVis::QCamera3D::CameraPresetRightLow), 38},
 };
 
 PyDoc_STRVAR(doc_QtStackedBar3DVis_QCamera3D, "\1QtStackedBar3DVis.QCamera3D(parent: QObject = None)");
@@ -1030,7 +1036,7 @@ sipClassTypeDef sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QCamera3D = {
     },
     {
         sipNameNr_QCamera3D,
-        {11, 255, 0},
+        {14, 255, 0},
         20, methods_QtStackedBar3DVis_QCamera3D,
         25, enummembers_QtStackedBar3DVis_QCamera3D,
         0, 0,

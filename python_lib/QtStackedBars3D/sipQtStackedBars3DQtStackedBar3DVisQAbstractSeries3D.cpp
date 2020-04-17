@@ -25,6 +25,8 @@
 
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -47,19 +49,21 @@
 #include <QAbstractSeries3D.h>
 #line 32 "sip/QtStackedBars3D/qabstractseries3d.sip"
 #include <QAbstractSeries3D.h>
-#line 51 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 53 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 
 #line 27 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qstring.sip"
 #include <qstring.h>
-#line 55 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 57 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 165 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qbrush.sip"
 #include <qbrush.h>
-#line 58 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 60 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qcolor.sip"
 #include <qcolor.h>
-#line 61 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 63 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -74,58 +78,58 @@
 #include <QTheme3D.h>
 #line 32 "sip/QtStackedBars3D/qtheme3d.sip"
 #include <QTheme3D.h>
-#line 78 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 82 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 30 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qquaternion.sip"
 #include <qquaternion.h>
-#line 81 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 85 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 30 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtGui/qvector3d.sip"
 #include <qvector3d.h>
-#line 84 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 88 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qmetaobject.sip"
 #include <qmetaobject.h>
-#line 87 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 91 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qcoreevent.sip"
 #include <qcoreevent.h>
-#line 90 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 94 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 247 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qcoreevent.sip"
 #include <qcoreevent.h>
-#line 93 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 97 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 235 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qcoreevent.sip"
 #include <qcoreevent.h>
-#line 96 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 100 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 28 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qobject.sip"
 #include <qobject.h>
-#line 99 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 103 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qvariant.sip"
 #include <qvariant.h>
-#line 102 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 106 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 38 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qpycore_qlist.sip"
 #include <qlist.h>
-#line 105 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 109 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 30 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qbytearray.sip"
 #include <qbytearray.h>
-#line 108 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 112 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 149 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qpycore_qlist.sip"
 #include <qlist.h>
-#line 111 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 115 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qnamespace.sip"
 #include <qnamespace.h>
-#line 114 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 118 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qthread.sip"
 #include <qthread.h>
-#line 117 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 121 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qnamespace.sip"
 #include <qnamespace.h>
-#line 120 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 124 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qregexp.sip"
 #include <qregexp.h>
-#line 123 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 127 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qregularexpression.sip"
 #include <qregularexpression.h>
-#line 126 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 130 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 #line 26 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qobjectdefs.sip"
 #include <qobjectdefs.h>
-#line 129 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
+#line 133 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractSeries3D.cpp"
 
 
 PyDoc_STRVAR(doc_QtStackedBar3DVis_QAbstractSeries3D_type, "type(self) -> QtStackedBar3DVis.QAbstractSeries3D.SeriesType");
@@ -1069,7 +1073,7 @@ static void dealloc_QtStackedBar3DVis_QAbstractSeries3D(sipSimpleWrapper *sipSel
 
 
 /* Define this type's super-types. */
-static sipEncodedTypeDef supers_QtStackedBar3DVis_QAbstractSeries3D[] = {{4, 0, 1}};
+static sipEncodedTypeDef supers_QtStackedBar3DVis_QAbstractSeries3D[] = {{5, 0, 1}};
 
 
 static PyMethodDef methods_QtStackedBar3DVis_QAbstractSeries3D[] = {
@@ -1109,22 +1113,22 @@ static PyMethodDef methods_QtStackedBar3DVis_QAbstractSeries3D[] = {
 };
 
 static sipEnumMemberDef enummembers_QtStackedBar3DVis_QAbstractSeries3D[] = {
-    {sipName_MeshArrow, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshArrow), 27},
-    {sipName_MeshBar, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshBar), 27},
-    {sipName_MeshBevelBar, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshBevelBar), 27},
-    {sipName_MeshBevelCube, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshBevelCube), 27},
-    {sipName_MeshCone, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshCone), 27},
-    {sipName_MeshCube, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshCube), 27},
-    {sipName_MeshCylinder, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshCylinder), 27},
-    {sipName_MeshMinimal, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshMinimal), 27},
-    {sipName_MeshPoint, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshPoint), 27},
-    {sipName_MeshPyramid, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshPyramid), 27},
-    {sipName_MeshSphere, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshSphere), 27},
-    {sipName_MeshUserDefined, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshUserDefined), 27},
-    {sipName_SeriesTypeBar, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::SeriesTypeBar), 28},
-    {sipName_SeriesTypeNone, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::SeriesTypeNone), 28},
-    {sipName_SeriesTypeScatter, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::SeriesTypeScatter), 28},
-    {sipName_SeriesTypeSurface, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::SeriesTypeSurface), 28},
+    {sipName_MeshArrow, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshArrow), 30},
+    {sipName_MeshBar, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshBar), 30},
+    {sipName_MeshBevelBar, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshBevelBar), 30},
+    {sipName_MeshBevelCube, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshBevelCube), 30},
+    {sipName_MeshCone, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshCone), 30},
+    {sipName_MeshCube, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshCube), 30},
+    {sipName_MeshCylinder, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshCylinder), 30},
+    {sipName_MeshMinimal, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshMinimal), 30},
+    {sipName_MeshPoint, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshPoint), 30},
+    {sipName_MeshPyramid, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshPyramid), 30},
+    {sipName_MeshSphere, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshSphere), 30},
+    {sipName_MeshUserDefined, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::MeshUserDefined), 30},
+    {sipName_SeriesTypeBar, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::SeriesTypeBar), 31},
+    {sipName_SeriesTypeNone, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::SeriesTypeNone), 31},
+    {sipName_SeriesTypeScatter, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::SeriesTypeScatter), 31},
+    {sipName_SeriesTypeSurface, static_cast<int>( ::QtStackedBar3DVis::QAbstractSeries3D::SeriesTypeSurface), 31},
 };
 
 
@@ -1170,7 +1174,7 @@ sipClassTypeDef sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QAbstractSeries3D =
     },
     {
         sipNameNr_QAbstractSeries3D,
-        {11, 255, 0},
+        {14, 255, 0},
         33, methods_QtStackedBar3DVis_QAbstractSeries3D,
         16, enummembers_QtStackedBar3DVis_QAbstractSeries3D,
         0, 0,

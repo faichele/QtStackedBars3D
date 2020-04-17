@@ -29,6 +29,8 @@
 
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -45,7 +47,7 @@
 #include <QAbstractAxis3D.h>
 #line 32 "sip/QtStackedBars3D/qabstractaxis3d.sip"
 #include <QAbstractAxis3D.h>
-#line 49 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQAbstractAxis3D.cpp"
+#line 51 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQAbstractAxis3D.cpp"
 
 
 extern "C" {static void assign_QList_0101QtStackedBar3DVis_QAbstractAxis3D(void *, SIP_SSIZE_T, void *);}
@@ -153,7 +155,7 @@ static int convertTo_QList_0101QtStackedBar3DVis_QAbstractAxis3D(PyObject *sipPy
     *sipCppPtr = ql;
  
     return sipGetState(sipTransferObj);
-#line 157 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQAbstractAxis3D.cpp"
+#line 159 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQAbstractAxis3D.cpp"
 }
 
 
@@ -191,7 +193,7 @@ static PyObject *convertFrom_QList_0101QtStackedBar3DVis_QAbstractAxis3D(void *s
     sipEnableGC(gc_enabled);
 
     return l;
-#line 195 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQAbstractAxis3D.cpp"
+#line 197 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQList0101QtStackedBar3DVisQAbstractAxis3D.cpp"
 }
 
 
@@ -201,7 +203,7 @@ sipMappedTypeDef sipTypeDef_QtStackedBars3D_QList_0101QtStackedBar3DVis_QAbstrac
         0,
         0,
         SIP_TYPE_MAPPED,
-        sipNameNr_859,     /* QList<QtStackedBar3DVis::QAbstractAxis3D*> */
+        sipNameNr_1014,     /* QList<QtStackedBar3DVis::QAbstractAxis3D*> */
         {0},
         0
     },

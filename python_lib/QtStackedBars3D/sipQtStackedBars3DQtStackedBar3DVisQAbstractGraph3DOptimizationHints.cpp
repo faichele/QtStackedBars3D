@@ -25,6 +25,8 @@
 
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -43,10 +45,12 @@
 #include <QAbstractGraph3D.h>
 #line 32 "sip/QtStackedBars3D/qabstractgraph3d.sip"
 #include <QAbstractGraph3D.h>
-#line 47 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
+#line 49 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
 
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -65,7 +69,7 @@
 #include <QAbstractGraph3D.h>
 #line 32 "sip/QtStackedBars3D/qabstractgraph3d.sip"
 #include <QAbstractGraph3D.h>
-#line 69 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
+#line 73 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
 
 
 extern "C" {static long slot_QtStackedBar3DVis_QAbstractGraph3D_OptimizationHints___hash__(PyObject *);}
@@ -83,7 +87,7 @@ static long slot_QtStackedBar3DVis_QAbstractGraph3D_OptimizationHints___hash__(P
 
 #line 116 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qglobal.sip"
         sipRes = sipCpp->operator QtStackedBar3DVis::QAbstractGraph3D::OptimizationHints::Int();
-#line 87 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
+#line 91 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
 
             return sipRes;
         }
@@ -108,7 +112,7 @@ static int slot_QtStackedBar3DVis_QAbstractGraph3D_OptimizationHints___bool__(Py
 
 #line 111 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qglobal.sip"
         sipRes = (sipCpp->operator QtStackedBar3DVis::QAbstractGraph3D::OptimizationHints::Int() != 0);
-#line 112 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
+#line 116 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
 
             return sipRes;
         }
@@ -138,7 +142,7 @@ static PyObject *slot_QtStackedBar3DVis_QAbstractGraph3D_OptimizationHints___ne_
 
 #line 106 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qglobal.sip"
         sipRes = (sipCpp->operator QtStackedBar3DVis::QAbstractGraph3D::OptimizationHints::Int() != a0->operator QtStackedBar3DVis::QAbstractGraph3D::OptimizationHints::Int());
-#line 142 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
+#line 146 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
             sipReleaseType(const_cast< ::QtStackedBar3DVis::QAbstractGraph3D::OptimizationHints *>(a0),sipType_QtStackedBar3DVis_QAbstractGraph3D_OptimizationHints,a0State);
 
             return PyBool_FromLong(sipRes);
@@ -174,7 +178,7 @@ static PyObject *slot_QtStackedBar3DVis_QAbstractGraph3D_OptimizationHints___eq_
 
 #line 101 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qglobal.sip"
         sipRes = (sipCpp->operator QtStackedBar3DVis::QAbstractGraph3D::OptimizationHints::Int() == a0->operator QtStackedBar3DVis::QAbstractGraph3D::OptimizationHints::Int());
-#line 178 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
+#line 182 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
             sipReleaseType(const_cast< ::QtStackedBar3DVis::QAbstractGraph3D::OptimizationHints *>(a0),sipType_QtStackedBar3DVis_QAbstractGraph3D_OptimizationHints,a0State);
 
             return PyBool_FromLong(sipRes);
@@ -213,7 +217,7 @@ static PyObject *slot_QtStackedBar3DVis_QAbstractGraph3D_OptimizationHints___ixo
         {
 #line 95 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qglobal.sip"
         *sipCpp = QtStackedBar3DVis::QAbstractGraph3D::OptimizationHints(*sipCpp ^ a0);
-#line 217 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
+#line 221 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
 
             Py_INCREF(sipSelf);
             return sipSelf;
@@ -285,7 +289,7 @@ static PyObject *slot_QtStackedBar3DVis_QAbstractGraph3D_OptimizationHints___ior
         {
 #line 89 "/trunet/data/volume2/virtualenvs/zyklio_python_packages_dbg/share/sip/PyQt5/QtCore/qglobal.sip"
         *sipCpp = QtStackedBar3DVis::QAbstractGraph3D::OptimizationHints(*sipCpp | a0);
-#line 289 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
+#line 293 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
 
             Py_INCREF(sipSelf);
             return sipSelf;
@@ -553,7 +557,7 @@ if (PyObject_TypeCheck(sipPy, sipTypeAsPyTypeObject(sipType_QtStackedBar3DVis_QA
 *sipCppPtr = reinterpret_cast<QtStackedBar3DVis::QAbstractGraph3D::OptimizationHints *>(sipConvertToType(sipPy, sipType_QtStackedBar3DVis_QAbstractGraph3D_OptimizationHints, sipTransferObj, SIP_NO_CONVERTORS, 0, sipIsErr));
 
 return 0;
-#line 557 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
+#line 561 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQAbstractGraph3DOptimizationHints.cpp"
 }
 
 
@@ -599,7 +603,7 @@ sipClassTypeDef sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QAbstractGraph3D_Op
     },
     {
         sipNameNr_OptimizationHints,
-        {17, 255, 0},
+        {20, 255, 0},
         0, 0,
         0, 0,
         0, 0,

@@ -182,7 +182,7 @@ sipMappedTypeDef sipTypeDef_QtStackedBars3D_QList_0100QColor = {
         0,
         0,
         SIP_TYPE_MAPPED,
-        sipNameNr_8849,     /* QList<QColor> */
+        sipNameNr_9193,     /* QList<QColor> */
         {0},
         0
     },

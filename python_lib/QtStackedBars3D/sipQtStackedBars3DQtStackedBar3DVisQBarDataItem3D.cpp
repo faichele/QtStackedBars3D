@@ -25,6 +25,8 @@
 
 #line 26 "sip/QtStackedBars3D/qbars3d.sip"
 #include <QBars3D.h>
+#line 26 "sip/QtStackedBars3D/qstackedbars3d.sip"
+#include <QStackedBars3D.h>
 #line 26 "sip/QtStackedBars3D/qcamera3d.sip"
 #include <QCamera3D.h>
 #line 26 "sip/QtStackedBars3D/qinputhandler3d.sip"
@@ -53,7 +55,7 @@
 #include <QBarDataItem3D.h>
 #line 32 "sip/QtStackedBars3D/qbardataitem3d.sip"
 #include <QBarDataItem3D.h>
-#line 57 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQBarDataItem3D.cpp"
+#line 59 "/trunet/data/volume2/src/QtStackedBars3D/python_lib/QtStackedBars3D/sipQtStackedBars3DQtStackedBar3DVisQBarDataItem3D.cpp"
 
 
 
@@ -289,7 +291,7 @@ sipClassTypeDef sipTypeDef_QtStackedBars3D_QtStackedBar3DVis_QBarDataItem3D = {
     },
     {
         sipNameNr_QBarDataItem3D,
-        {11, 255, 0},
+        {14, 255, 0},
         4, methods_QtStackedBar3DVis_QBarDataItem3D,
         0, 0,
         0, 0,
